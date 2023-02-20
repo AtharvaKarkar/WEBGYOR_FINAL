@@ -60,15 +60,15 @@ session_start();
         class="fas fa-shapes"></i>WEBGYOR </a>
 
     <nav class="navbar">
-      <a href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="300" href="#Home">Home</a>
-      <a href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
-      <a href="../Templates/index.html" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Template</a>
-      <a href="../services/Services.html" data-aos="zoom-in-left" data-aos-delay="750" href="#Services">Services</a>
-      <a href="../Call/index.html" data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
-      <a href="../ContactUs/index.html" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
+      <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="300" href="#Home">Home</a>
+      <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
+      <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Template</a>
+      <a href="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="#Services">Services</a>
+      <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
+      <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
     </nav>
 
-    <a href="../Authentication/index.html" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In"
+    <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In"
       class="btn">Sign-In</a>
 
   </header>
@@ -563,8 +563,8 @@ session_start();
         <h3>Quick Links</h3>
         <a href="../privacy.html" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
         <a href="../Know_more/Know_more.html" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
-        <a href="../Call/index.html" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
-        <a href="../ContactUs/index.html" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
+        <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
+        <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
 
 
       </div>

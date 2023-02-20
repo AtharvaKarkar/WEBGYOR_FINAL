@@ -23,15 +23,15 @@ session_start();
   <a data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR </a>
 
   <nav class="navbar">
-      <a href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="300" href="#Home">Home</a>
-      <a  href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
-      <a href="../Templates/index.html" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Template</a>
-      <a href="../services/Services.html" data-aos="zoom-in-left" data-aos-delay="750" href="#Package">Services</a>
-      <a href="../Call/index.html" data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
-      <a href="../ContactUs/index.html" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
+      <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="300" href="#Home">Home</a>
+      <a  href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
+      <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Template</a>
+      <a href="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="#Package">Services</a>
+      <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
+      <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
   </nav>
 
-  <a data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a>
+  <a data-aos="zoom-in-left" data-aos-delay="1300" href="../Authentication/index.php" class="btn">Sign-In</a>
 
 </header>
 
@@ -70,7 +70,7 @@ session_start();
         <h3></h3>
         
       </figcaption>
-      <a href="../ContactUs/index.html" class="btn1">Know More</a>
+      <a href="../ContactUs/index.php" class="btn1">Know More</a>
       
     </figure>
     
@@ -81,7 +81,7 @@ session_start();
       <figcaption>
         <h3></h3>
       </figcaption>
-      <a href="../ContactUs/index.html" class="btn1">Know More</a>
+      <a href="../ContactUs/index.php" class="btn1">Know More</a>
       
     </figure>
     
@@ -92,7 +92,7 @@ session_start();
       <figcaption>
         <h3></h3>
       </figcaption>
-      <a href="../ContactUs/index.html" class="btn1">Know More</a>
+      <a href="../ContactUs/index.php" class="btn1">Know More</a>
       
     </figure>
     
@@ -102,7 +102,7 @@ session_start();
       <figcaption>
         <h3></h3>
       </figcaption>
-      <a href="../ContactUs/index.html" class="btn1">Know More</a>
+      <a href="../ContactUs/index.php" class="btn1">Know More</a>
       
     </figure>
     
@@ -132,7 +132,7 @@ session_start();
           
         </figcaption>
       
-        <a href="../ContactUs/index.html" class="btn1">Know More</a>
+        <a href="../ContactUs/index.php" class="btn1">Know More</a>
         
       </figure>
       
@@ -143,7 +143,7 @@ session_start();
         <figcaption>
           <h3></h3>
         </figcaption>
-        <a href="../ContactUs/index.html" class="btn1">Know More</a>
+        <a href="../ContactUs/index.php" class="btn1">Know More</a>
         
       </figure>
       
@@ -153,7 +153,7 @@ session_start();
         <figcaption>
           <h3></h3>
         </figcaption>
-        <a href="../ContactUs/index.html" class="btn1">Know More</a>
+        <a href="../ContactUs/index.php" class="btn1">Know More</a>
         
       </figure>
       
@@ -163,7 +163,7 @@ session_start();
         <figcaption>
           <h3></h3>
         </figcaption>
-        <a href="../ContactUs/index.html" class="btn1">Know More</a>
+        <a href="../ContactUs/index.php" class="btn1">Know More</a>
         
       </figure>
       
@@ -192,10 +192,10 @@ session_start();
 
       <div class="box" data-aos="fade-up" data-aos-delay="300">
           <h3>quick links</h3>
-          <a href="../privacy.html" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
-          <a href="../Know_more/Know_more.html" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
-          <a href="../Call/index.html" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
-          <a href="../ContactUs/index.html" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
+          <a href="../privacy.php" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
+          <a href="../Know_more/Know_more.php" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
+          <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
+          <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
           
       </div>
 

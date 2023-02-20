@@ -6,7 +6,7 @@ session_start();
 <div class="background background1"></div>
 <div class="background background2"></div>
 <div class="background background3"></div>
-<div class="background background4"></div>
+<div class="background background4"></div> 
 <div class="background background5"></div>
 <div class="background background6"></div>
 <div class="background background7"></div>
@@ -123,6 +123,6 @@ session_start();
   <div class="particle particle79"></div>
   <div class="particle particle710"></div>
   <div class="particle particle711"></div>
-  <a href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="1300" href="#EXPLORE" class="btn">EXPLORE</a>
+  <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#EXPLORE" class="btn">EXPLORE</a>
 
 </div>

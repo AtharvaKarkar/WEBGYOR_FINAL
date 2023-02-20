@@ -38,15 +38,15 @@ session_start();
     <a  href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR </a>
 
     <nav class="navbar">
-        <a data-aos="zoom-in-left" data-aos-delay="300" href="#Home">Home</a>
-        <a data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
-        <a href ="../Templates/index.html" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
-        <a href ="../services/Services.html" data-aos="zoom-in-left" data-aos-delay="750" href="#Services">Services</a>
-        <a href="../Call/index.html" data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
-        <a href="../ContactUs/index.html" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="../Homepage/index.php">Home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="../Homepage/index.php">About</a>
+        <a href ="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="../Templates/index.php">Our Work</a>
+        <a href ="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="../services/Services.php">Services</a>
+        <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900" href="../Call/index.php">Call</a>
+        <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
     </nav>
 
-    <a href="../Authentication/index.html" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a>
+    <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a>
 
 </header>
 
@@ -198,7 +198,7 @@ session_start();
             <h3></h3>
         </div>
 
-        <a href="../Templates/index.html" class="btn" href="template">Explore</a>
+        <a href="../Templates/index.php" class="btn" href="template">Explore</a>
 
         
         
@@ -237,7 +237,7 @@ session_start();
             <div class="user">
                 <img src="images/pic-1.png" alt="">
                 <div class="info">
-                    <h3>Sakshi Jamdade</h3>
+                    <h3>Eeshan</h3>
                     <span>Designer</span>
                 </div>
             </div>
@@ -288,7 +288,7 @@ session_start();
         <span>Be a part of us.</span>
         <h3>EXPLORE WEBGYOR</h3>
         <p>Hiring the best experienced people. Want to be part of WEBGYOR what are you waiting for?</p>
-        <a href="../Call/index.html" class="btn">Book a Call</a>
+        <a href="../Call/index.php" class="btn">Book a Call</a>
     </div>
 
 </div>
@@ -316,10 +316,10 @@ session_start();
 
         <div class="box" data-aos="fade-up" data-aos-delay="300">
             <h3>quick links</h3>
-            <a href="../privacy.html" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
-            <a href="../Know_more/Know_more.html" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
-            <a href="../Call/index.html" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
-            <a href="../ContactUs/index.html" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
+            <a href="../privacy.php" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
+            <a href="../Know_more/Know_more.php" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
+            <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
+            <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
             
         </div>
 
