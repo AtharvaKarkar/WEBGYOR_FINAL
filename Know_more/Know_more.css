@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y:scroll;
+  height: 100vh;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.Digi{
+  justify-content: center;
+  color: rgb(6, 0, 8);
+  margin-right: 100px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+.Web{
+  justify-content: center;
+  color: rgb(211, 174, 222);
+  margin-right: 100px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+.App{
+  justify-content: center;
+  color: rgb(211, 174, 222);
+  margin-right: 100px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+.Des{
+  justify-content: center;
+  color: rgb(10, 9, 11);
+  margin-right: 100px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+.Brand{
+  justify-content: center;
+  color: rgb(211, 174, 222);
+  margin-right: 100px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+.Photo{
+  justify-content: center;
+  color: rgb(10, 8, 10);
+  margin-right: 100px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+.Seo{
+  justify-content: center;
+  color: rgb(211, 174, 222);
+  margin-right: 100px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+.Soc{
+  justify-content: center;
+  color: rgb(3, 3, 3);
+  margin-right: 100px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+
+h1 {
+  color: rgb(188, 102, 216);
+  margin-bottom: 400px;
+  text-shadow: 1px 1px 4px black;
+  font-size: 40px;
+}
+h2{
+  color: rgb(5, 0, 7);
+  margin-bottom: 400px;
+  text-shadow: 1px 1px 4px black;
+  font-size: 40px;
+}
+h3{
+  color: rgb(188, 102, 216);
+  margin-bottom: 400px;
+  text-shadow: 1px 1px 4px black;
+  font-size: 40px; 
+}
+h4{
+  color: rgb(5, 0, 7);
+  margin-bottom: 400px;
+  text-shadow: 1px 1px 4px black;
+  font-size: 40px;
+}
+h5{
+  color: rgb(188, 102, 216);
+  margin-bottom: 400px;
+  text-shadow: 1px 1px 4px black;
+  font-size: 40px;
+  margin-left: 50px;
+}
+h6{
+  color: rgb(5, 0, 7);
+  margin-bottom: 400px;
+  text-shadow: 1px 1px 4px black;
+  font-size: 40px;
+}
+h7{
+  color: rgb(188, 102, 216);
+  margin-bottom: 400px;
+  text-shadow: 1px 1px 4px black;
+  font-size: 40px;
+  margin-left: 130px;
+}
+h8{
+  color: rgb(5, 0, 7);
+  margin-bottom: 400px;
+  text-shadow: 1px 1px 4px black;
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+
+.one {
+  background-color: rgb(6, 6, 6);
+}
+.two {
+  background-color: rgb(188, 102, 216);
+}
+.three {
+  background-color: rgb(15, 13, 12);
+}
+.four {
+  background-color: rgb(188, 102, 216);
+}
+.five {
+  background-color: rgb(8, 9, 10);
+}
+.six {
+  background-color: rgb(188, 102, 216);
+}
+.seven{
+  background-color: black ;  
+}
+.eight{
+  background-color: rgb(188, 102, 216);;
+}
+body {
+  border: 1px solid black;
+}
+
+/*code for scroll bar*/
+/* 
+::-web-kit-scrollbar {
+    width:12px;
+
+}
+::-web-kit-scrollbar-thumb {
+    background: linear-gradient(transparent,#30ff00);
+    border-radius: 6px;
+} 
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(trnasparent,#00c6ff);
+}
+*/
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.1rem;
+  color: #bb5bd6;
+  border: 0.1rem solid #bb5bd6;
+  border-radius: 3rem;
+  cursor: pointer;
+  background: none;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #bb5bd6;
+  color: #111;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.8rem 9%;
+}
+
+.header .navbar a {
+  font-size: 1.1rem;
+  color: #aaa;
+  display: inline-block;
+  margin: 1rem;
+  text-decoration: none;
+  font-style: normal;
+  
+}
+
+.header .navbar a:hover {
+  color: #bb5bd6;
+}
+
+.header .btn {
+  margin-top: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bolder;
+  padding-right: 90px;
+  text-decoration: none;
+}
+
+.logo i {
+  color: #bb5bd6;
+  padding-right: .5rem;
+}
+
+#menu-btn {
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  text-decoration: none;
+}
