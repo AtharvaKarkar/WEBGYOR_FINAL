@@ -175,25 +175,25 @@ session_start();
 
     <div class="heading">
         <span>Made it easy for you by categorizing your fields of interest.</span>
-        <h1>BEST TEMPLATE CATEGORIES.</h1>
+        <h1>OUR BEST WORK</h1>
     </div>
     
     <div class="box-container">
 
         <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
-            <img src="images/IMG-20230215-WA0002.jpg" alt="">
+            <img src="images/F8.jpg" alt="">
             <span></span>
             <h3></h3>
         </div>
 
         <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
-            <img src="images/IMG-20230214-WA0031.jpg" alt="">
+            <img src="images/F4.jpg" alt="">
             <span></span>
             <h3></h3>
         </div>
 
         <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
-            <img src="images/Screenshot (145).png" alt="">
+            <img src="images/F3.jpg" alt="">
             <span></span>
             <h3></h3>
         </div>

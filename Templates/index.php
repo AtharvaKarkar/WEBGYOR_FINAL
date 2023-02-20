@@ -25,7 +25,7 @@ session_start();
   <nav class="navbar">
       <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="300" href="#Home">Home</a>
       <a  href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
-      <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Template</a>
+      <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
       <a href="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="#Package">Services</a>
       <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
       <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
@@ -63,21 +63,8 @@ session_start();
       </div>
       </section>
       <section>
-    <figure class="container">
-      
-      <img src="images/A1.png" alt="sample89" />
-      <figcaption>
-        <h3></h3>
-        
-      </figcaption>
-      <a href="../ContactUs/index.php" class="btn1">Know More</a>
-      
-    </figure>
-    
-
-    
-    <figure class="container">
-      <img src="images/A2.png" alt="sample94" />
+    <figure class="container" class="i1">
+      <img src="images/F1.jpg" alt="sample89" />
       <figcaption>
         <h3></h3>
       </figcaption>
@@ -87,8 +74,19 @@ session_start();
     
 
     
+    <figure class="container" class="i2">
+      <img src="images/F2.jpg" alt="sample94" />
+      <figcaption>
+        <h3></h3>
+      </figcaption>
+      <a href="../ContactUs/index.php" class="btn1">Know More</a>
+      
+    </figure>
+    
+
+    
     <figure class="container">
-      <img src="images/A3.png" alt="sample92" />
+      <img src="images/F3.jpg" alt="sample92" />
       <figcaption>
         <h3></h3>
       </figcaption>
@@ -98,7 +96,7 @@ session_start();
     
 
     <figure class="container">
-      <img src="images/A4.png" alt="sample94" />
+      <img src="images/F4.jpg" alt="sample94" />
       <figcaption>
         <h3></h3>
       </figcaption>
@@ -126,20 +124,26 @@ session_start();
 
     <section class="figure">
       <figure class="container">
-        <img src="images/B1.png" alt="sample89" />
+        <img src="images/F5.png" alt="sample89" />
         <figcaption>
           <h3></h3>
-          
         </figcaption>
-      
         <a href="../ContactUs/index.php" class="btn1">Know More</a>
-        
       </figure>
       
 
     
       <figure class="container">
-        <img src="images/B2.png" alt="sample94" />
+        <img src="images/F6.jpg" alt="sample94" />
+        <figcaption>
+          <h3></h3>
+        </figcaption>
+        <a href="../ContactUs/index.php" class="btn1">Know More</a>
+      </figure>
+      
+
+      <figure class="container">
+        <img src="images/F7.png" alt="sample92" />
         <figcaption>
           <h3></h3>
         </figcaption>
@@ -149,17 +153,7 @@ session_start();
       
 
       <figure class="container">
-        <img src="images/B3.png" alt="sample92" />
-        <figcaption>
-          <h3></h3>
-        </figcaption>
-        <a href="../ContactUs/index.php" class="btn1">Know More</a>
-        
-      </figure>
-      
-
-      <figure class="container">
-        <img src="images/B4.png" alt="sample94" />
+        <img src="images/F8.jpg" alt="sample94" />
         <figcaption>
           <h3></h3>
         </figcaption>
