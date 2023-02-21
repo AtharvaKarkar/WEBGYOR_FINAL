@@ -39,11 +39,11 @@ session_start();
 
     <nav class="navbar">
         <a data-aos="zoom-in-left" data-aos-delay="300" href="../Homepage/index.php">Home</a>
-        <a data-aos="zoom-in-left" data-aos-delay="450" href="../Homepage/index.php">About</a>
-        <a href ="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="../Templates/index.php">Our Work</a>
-        <a href ="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="../services/Services.php">Services</a>
-        <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900" href="../Call/index.php">Call</a>
-        <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="../services/Services.php">Services</a>
+        <a  data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
+        <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150">Contact-Us</a>
     </nav>
 
     <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a>
@@ -90,7 +90,7 @@ session_start();
 
 <section class="about" id="About">
 
-    <div class="video-container" data-aos="fade-right" data-aos-delay="300" height="200px">
+    <div class="video-container" data-aos="fade-right" data-aos-delay="300" height="200px" href="">
         <video src="images/about us video.mp4" muted autoplay loop class="video"></video>
         <div class="controls">
             
