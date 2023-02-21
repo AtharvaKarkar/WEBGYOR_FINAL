@@ -24,7 +24,7 @@ if(isset($_POST["signin"])) {
 		$_SESSION["user_id"] = $row["id"];
 		$_SESSION["email"]=$row["email"];
 		echo "Login successful";
-		//header("Location: index.php");
+		header("Location:../Homepage/index.php");
 	} else {
 		echo "Username and or password incorrect. Check again";
 	}

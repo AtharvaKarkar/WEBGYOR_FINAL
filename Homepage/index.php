@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,12 +43,13 @@ session_start();
         <a data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
         <a data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
         <a data-aos="zoom-in-left" data-aos-delay="750" href="../services/Services.php">Services</a>
-        <a  data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
+        <a  data-aos="zoom-in-left" data-aos-delay="900" href="../Call/index.php">Join Us</a>
         <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150">Contact-Us</a>
     </nav>
-
     <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a>
-
+        
+    <a href="../Authentication/user_logout.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Logout</a>
+           
 </header>
 
 
@@ -174,7 +176,7 @@ session_start();
 <section class="template" id="Template">
 
     <div class="heading">
-        <span>Made it easy for you by categorizing your fields of interest.</span>
+        <span>When are you getting ONLINE ?.</span>
         <h1>OUR BEST WORK</h1>
     </div>
     
@@ -337,7 +339,7 @@ session_start();
 
 </section>
 
-<div class="credit">Created by <span>Webgyor</span> | All rights reserved!</div>
+<div class="credit">Created by <span>Webgyor</span> | All rights reserved! Designed & Created By: Aditi,Atharva</div>
 
 <!-- footer section ends -->
 

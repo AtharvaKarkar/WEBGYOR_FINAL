@@ -35,7 +35,7 @@ session_start();
             </label>
             <input id="first-name" type="text" name="first-name" autocomplete="given-name" required>
           </div>
-  
+
           <div class="mt-3 sm:mt-0 form__field">
             <label for="last-name">
               Last name

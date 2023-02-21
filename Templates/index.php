@@ -1,5 +1,12 @@
 <?php
 session_start();
+if(empty($_SESSION))
+{
+    echo "<script>
+    alert('Signin To Start Booking!');
+    window.location.href='../Authentication/index.php';
+    </script>";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,7 +34,7 @@ session_start();
       <a  href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
       <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
       <a href="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="#Package">Services</a>
-      <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900" href="#Call">Call</a>
+      <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900">Join Us</a>
       <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
   </nav>
 
@@ -207,7 +214,7 @@ session_start();
 
 </section>
 
-<div class="credit">Created by <span>Webgyor</span> | All rights reserved!</div>
+<div class="credit">Created by <span>Webgyor</span> | All rights reserved! Designed & Created By: Aditi,Atharva</div>
 
 <!-- footer section ends -->
 

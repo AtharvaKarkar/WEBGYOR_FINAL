@@ -7,12 +7,12 @@ if(isset($_POST["signup"])){
     $pwd=strip_tags($_POST["userpass"]);
     //$cpwd=strip_tags($_POST["loginPasswordConfirm"]);
 
-    //$pwd=md5($pwd);
+    $pwd=md5($pwd);
     $sql="INSERT INTO users(id,username,email,password) VALUES (id, '$name', '$email', '$pwd')";
     $result=mysqli_query($conn,$sql);
     if($result){
         echo "Data added successfully";
-        //header("Location:index.php");
+        header("Location:../Homepage/index.php");
     }else{
         echo "record not saved";
     }

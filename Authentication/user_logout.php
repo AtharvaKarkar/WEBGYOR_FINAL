@@ -1,7 +1,7 @@
 <?php
 session_start();
-$_SESSION=array();
+session_unset();
 session_destroy();
-header("location: index.php "); ## this should take the user to login/signup page .
+header("location:../Animation/index.php"); ## this should take the user to login/signup page .
 
 ?>
