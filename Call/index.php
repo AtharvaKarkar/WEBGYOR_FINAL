@@ -31,7 +31,7 @@ session_start();
       <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
   </nav>
 
-  <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a>
+  <a href="../Animation/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Logout" class="btn">Logout</a>
 
 </header>
 

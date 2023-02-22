@@ -123,6 +123,6 @@ session_start();
   <div class="particle particle79"></div>
   <div class="particle particle710"></div>
   <div class="particle particle711"></div>
-  <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#EXPLORE" class="btn">EXPLORE</a>
+  <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300"  class="btn">EXPLORE</a>
 
 </div>

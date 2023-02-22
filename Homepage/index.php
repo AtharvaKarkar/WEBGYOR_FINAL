@@ -46,7 +46,7 @@ session_start();
         <a  data-aos="zoom-in-left" data-aos-delay="900" href="../Call/index.php">Join Us</a>
         <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150">Contact-Us</a>
     </nav>
-    <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a>
+   <!-- <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a> -->
         
     <a href="../Authentication/user_logout.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Logout</a>
            
