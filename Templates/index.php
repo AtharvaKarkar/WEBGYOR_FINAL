@@ -174,46 +174,8 @@ if(empty($_SESSION))
       
       </section>
       <!--end of BUSINESS-->
-<!-- footer section starts  -->
 
-<section class="footer">
-
-    <div class="box-container">
-
-        <div class="box" data-aos="fade-up" data-aos-delay="150">
-            <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>WEBGYOR </a>
-            <p>So when are yo taking your business online??</p>
-            <div class="share">
-                <a href="#" class="fab fa-facebook-f"></a>
-                <a href="#" class="fab fa-twitter"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-linkedin"></a>
-            </div>
-        </div>
-
-        <div class="box" data-aos="fade-up" data-aos-delay="300">
-            <h3>quick links</h3>
-            <a href="../privacy.php" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
-            <a href="../Know_more/Know_more.php" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
-            <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
-            <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
             
-        </div>
-
-        <div class="box" data-aos="fade-up" data-aos-delay="450">
-            <h3>contact info</h3>
-            <p> <i class="fas fa-map"></i> Kalpataru,Shivajinagar,Pune, India </p>
-            <p> <i class="fas fa-phone"></i> 7083939090 </p>
-            <p> <i class="fas fa-envelope"></i> webgyor@gmail.com </p>
-            <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
-        </div>
-
-        
-
-    </div>
-
-</section>
-
 <div class="credit">Created by <span>Webgyor</span> | All rights reserved! Designed & Created By: Aditi,Atharva</div>
 
       

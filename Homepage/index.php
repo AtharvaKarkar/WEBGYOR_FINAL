@@ -34,7 +34,7 @@ session_start();
 
 <header class="header">
 
-    <div id="menu-btn" class="fas fa-bars"></div>
+    <!--div id="menu-btn" class="fas fa-bars"></div-->
 
     <a  href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR </a>
 
