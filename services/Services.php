@@ -564,7 +564,7 @@ session_start();
         <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us</a>
         <a href="../Know_more/Know_more.php" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
         <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
-        <a href="../Privacy policy/index.php" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy </a>
+        <a href="../Privacy policy/privacy.php" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy </a>
 
 
       </div>

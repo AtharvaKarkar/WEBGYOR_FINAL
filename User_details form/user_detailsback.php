@@ -15,7 +15,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     $aboutbizz=$_POST["about-business"];
 
     // insert data in db
-    $sql="INSERT INTO user_details (firstname,lastname,phone,time,companyname,compemail,peremail,type,postalcode,aboutbizz) VALUES ('$firstname',)";
+    $sql="INSERT INTO user_details (firstname,lastname,phone,time,companyname,compemail,peremail,type,postalcode,aboutbizz) VALUES ('$firstname','$lastname','$companyname','$peremail','$compemail','$type','$phoneno','$postalcode','$time','$aboutbizz')";
     $result=mysqli_query($conn,$sql); 
 
     if($result) {
