@@ -1,18 +1,24 @@
 <?php
 require_once('../Authentication/Db_connection.php');
-if(isset($_POST["Send"])) {
-    $name=$_POST["name"];
-    $phone=$_POST["phone"];
-    $time=$_POST["time"];
-    $message=$_POST["message"];
-    $sql="INSERT INTO join_us(name, time, phone, discussion topic) VALUES ('$name', '$phone', '$time', '$message')";
-    $result=mysqli_query($con,$sql);
 
-    if(mysqli_query($con,$sql)){
-        echo "Details successfully added ";
-       // header("Location:../ContactUS/index.php");
-    }else{
-        echo "record not saved";
-    }
-} 
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+  $name = $_POST['name'];
+  $phone = $_POST['phone'];
+  $time = $_POST['time'];
+  $discussion_topic = $_POST['discussion_topic'];
+
+// Insert data into database table
+  $sql = "INSERT INTO join_us (name, phone, time, discussion_topic) VALUES ('$name', '$phone', '$time', '$discussion_topic')";
+  $result = mysqli_query($conn, $sql);
+
+  if ($result) {
+    header('Location: index.php'); //redirect to index.php
+    exit(); //prevent further execution
+  } else {
+    echo "Error: " . mysqli_error($conn);
+  }
+}
+
+mysqli_close($conn);
 ?>
+
