@@ -30,7 +30,7 @@
         }
         .menu-content
         {
-            color: #E4D00A;
+            color: black;
             width: 100%;
             height: 120px;
             margin: 0px;
@@ -42,7 +42,7 @@
             margin-bottom: 50px;
             border: 0.5px solid black;
             cursor: pointer;
-            font-size: 1.7vw;
+            font-size: 30px;
         }
         .menu-content:hover
         {
@@ -75,10 +75,10 @@
         <nav class="nav">
             <h1 aligin="right"><a href="../Animation/index.php">Logout</a>
             </h1>
-            <h1 class="special" align="center">WEBGYOR</h1>
+            <!--h1 class="special" align="center">WEBGYOR</h1-->
             <a href="admin_index.php">
                 <button class="menu-content" id="dash">
-                    Dashboard
+                    WEBGYOR Dashboard
                 </button>
             </a>
 
