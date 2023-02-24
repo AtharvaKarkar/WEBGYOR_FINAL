@@ -85,7 +85,7 @@ session_start();
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form action="index.html" autocomplete="off">
+          <form action="callusback.php" autocomplete="off" method="post">
             <h3 class="title">Call Us</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" />
@@ -93,12 +93,12 @@ session_start();
               <span>Name</span>
             </div>
             <div class="input-container">
-              <input type="email" name="email" class="input" />
+              <input type="time" name="time" class="input" />
               <label for="">Suitable time to contact you.</label>
               <span>Time</span>
             </div>
             <div class="input-container">
-              <input type="tel" name="phone" class="input" />
+              <input type="number" name="phone" class="input" />
               <label for="">Phone</label>
               <span>Phone</span>
             </div>

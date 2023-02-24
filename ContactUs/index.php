@@ -1,5 +1,6 @@
 <?php
 session_start();
+require("contactusback.php");
 ?>
 
 <!DOCTYPE html>
@@ -20,20 +21,18 @@ session_start();
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i
-        class="fas fa-shapes"></i>WEBGYOR </a>
+    <a href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR </a>
 
     <nav class="navbar">
       <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="300" href="#Home">Home</a>
       <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
       <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
       <a href="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="#Services">Services</a>
-      <a  data-aos="zoom-in-left" data-aos-delay="900" href="../Call/index.php">Join Us</a>
+      <a data-aos="zoom-in-left" data-aos-delay="900" href="../Call/index.php">Join Us</a>
       <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
     </nav>
 
-    <a href="../Animation/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Logout"
-      class="btn">Logout</a>
+    <a href="../Animation/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Logout" class="btn">Logout</a>
 
   </header>
 
@@ -88,7 +87,7 @@ session_start();
         <span class="circle one"></span>
         <span class="circle two"></span>
 
-        <form action="index.html" autocomplete="off">
+        <form action="contactusback.php" autocomplete="off" method="post">
           <h3 class="title">Contact us</h3>
           <div class="input-container">
             <input type="text" name="name" class="input" />

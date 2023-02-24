@@ -34,7 +34,7 @@ session_start();
 <div class="mx-auto container">
 
     <!-- Progress Form -->
-    <form id="progress-form" class="p-4 progress-form" action="https://httpbin.org/post" lang="en" novalidate>
+    <form id="progress-form" class="p-4 progress-form" action="user_detailsback.php" lang="en" novalidate method="post">
   
       <!-- Step Navigation -->
       <div class="d-flex align-items-start mb-3 sm:mb-5 progress-form__tabs" role="tablist">
