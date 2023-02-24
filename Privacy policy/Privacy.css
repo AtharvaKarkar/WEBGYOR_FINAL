@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 10;
+    padding: 5;
+    text-decoration: none;
+}
+body{
+    background-color: #000000;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 120px;
+    height: 250px;
+  }
+  
+  .heading span {
+    color: #bb5bd6;
+    font-size: 2rem;
+  }
+  
+  .heading h1 {
+    font-size: 4rem;
+    color: #fff;
+  }
+  
+  .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.6rem 1.8rem;
+    font-size: 1.1rem;
+    color: #bb5bd6;
+    border: 0.1rem solid #bb5bd6;
+    border-radius: 4rem;
+    cursor: pointer;
+    background: none;
+  }
+  
+  .btn:hover {
+    background: #bb5bd6;
+    color: #111;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #222;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0.2rem 7%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .header .navbar a {
+    font-size: 1.1rem;
+    color: #aaa;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  
+  .header .navbar a:hover {
+    color: #bb5bd6;
+  }
+  
+  .header .btn {
+    margin-top: 0;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bolder;
+    padding-right: 90px;
+  }
+  
+  .logo i {
+    color: #bb5bd6;
+    padding-right: .5rem;
+  }
+  
+  .menu-btn {
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  .banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/banner-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0rem 2rem;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  
+  .banner .content span {
+    font-size: 2rem;
+    color: #bb5bd6;
+  }
+  
+  .banner .content h3 {
+    font-size: 1.9rem;
+    color: #fff;
+    margin-top: 1rem;
+  }
+  
+  .banner .content p {
+    max-width: 60rem;
+    margin: 1rem auto;
+    font-size: 0.7rem;
+    color: #aaa;
+    line-height: 2;
+  }
+  
+  

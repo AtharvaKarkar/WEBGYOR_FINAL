@@ -2,7 +2,7 @@
 session_start();
 ?>
 <!-- header section starts  -->
-
+<link rel="stylesheet" href="privacy.css">
 <header class="header">
 
     <!--div id="menu-btn" class="fas fa-bars"></div-->

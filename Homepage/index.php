@@ -318,10 +318,10 @@ session_start();
 
         <div class="box" data-aos="fade-up" data-aos-delay="300">
             <h3>quick links</h3>
-            <a href="../privacy.php" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy</a>
+            <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us</a>
             <a href="../Know_more/Know_more.php" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
             <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
-            <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us </a>
+            <a href="../Privacy policy/Privacy.php" class="links"> <i class="fas fa-arrow-right"></i>Privacy Policy </a>
             
         </div>
 
