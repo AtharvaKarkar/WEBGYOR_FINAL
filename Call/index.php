@@ -85,30 +85,31 @@ session_start();
           <span class="circle one"></span>
           <span class="circle two"></span>
 
-          <form action="callusback.php" autocomplete="off" method="post">
+          <form method="post" action="callusback.php" autocomplete="off">
             <h3 class="title">Call Us</h3>
             <div class="input-container">
-              <input type="text" name="name" class="input" />
-              <label for="">Name</label>
-              <span>Name</span>
+                <input type="text" name="name" class="input" id="name" required />
+                <label for="name">Name</label>
+                <span>Name</span>
             </div>
             <div class="input-container">
-              <input type="time" name="time" class="input" />
-              <label for="">Suitable time to contact you.</label>
-              <span>Time</span>
+                <input type="tel" name="phone" class="input" id="phone" required />
+                <label for="phone">Phone</label>
+                <span>Phone</span>
             </div>
             <div class="input-container">
-              <input type="number" name="phone" class="input" />
-              <label for="">Phone</label>
-              <span>Phone</span>
+                <input type="datetime-local" name="time" class="input" id="time" required />
+                <label for="time">Suitable time to contact you</label>
+                <span>Time</span>
             </div>
             <div class="input-container textarea">
-              <textarea name="message" class="input"></textarea>
-              <label for="">Discussion topic</label>
-              <span>Discussion topic</span>
+                <textarea name="discussion_topic" class="input" id="discussion_topic" required></textarea>
+                <label for="discussion_topic">Discussion Topic</label>
+                <span>Discussion Topic</span>
             </div>
-            <input type="submit" value="Send" class="btn" />
+            <button type="submit" class="btn">Submit</button>
           </form>
+
         </div>
       </div>
     </div>
