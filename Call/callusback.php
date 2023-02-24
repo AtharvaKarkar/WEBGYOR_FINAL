@@ -1,22 +1,18 @@
 <?php
-
 require_once('../Authentication/Db_connection.php');
 if(isset($_POST["Send"])) {
     $name=$_POST["name"];
-    $email=$_POST["email"];
     $phone=$_POST["phone"];
+    $time=$_POST["time"];
     $message=$_POST["message"];
-    $sql="INSERT INTO contactus(name, email, phone, message) VALUES ('$name', '$email', '$phone', '$message')";
+    $sql="INSERT INTO join_us(name, time, phone, discussion topic) VALUES ('$name', '$phone', '$time', '$message')";
     $result=mysqli_query($con,$sql);
 
     if(mysqli_query($con,$sql)){
         echo "Details successfully added ";
-        header("Location:../ContactUS/index.php");
+       // header("Location:../ContactUS/index.php");
     }else{
         echo "record not saved";
     }
 } 
-
-
-
 ?>

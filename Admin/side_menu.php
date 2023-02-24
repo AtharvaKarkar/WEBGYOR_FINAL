@@ -88,13 +88,13 @@
                 </button>
             </a>
 
-            <a href="conatct.php"> 
+            <a href="contactus.php"> 
                 <button class="menu-cotent">
                     Contact-Details
                 </button>
             </a>
 
-            <a href="conatct.php"> 
+            <a href="calldetails.php"> 
                 <button class="menu-cotent">
                     Call Details
                 </button>
