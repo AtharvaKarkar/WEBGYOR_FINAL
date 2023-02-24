@@ -49,6 +49,7 @@ session_start();
 											</form>
 											<p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your
 													password?</a></p>
+													<p class="mb-0 mt-4 text-center"><a href="../Admin/admin_login.php" class="link">Admin</a></p>
 										</div>
 									</div>
 								</div>

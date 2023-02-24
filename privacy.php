@@ -1,6 +1,30 @@
 <?php
 session_start();
 ?>
+<!-- header section starts  -->
+
+<header class="header">
+
+    <!--div id="menu-btn" class="fas fa-bars"></div-->
+
+    <a  href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR </a>
+
+    <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="../Homepage/index.php">Home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
+        <a data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="../services/Services.php">Services</a>
+        <a  data-aos="zoom-in-left" data-aos-delay="900" href="../Call/index.php">Join Us</a>
+        <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150">Contact-Us</a>
+    </nav>
+   <!-- <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a> -->
+        
+    <a href="../Authentication/user_logout.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Logout</a>
+           
+</header>
+
+
+<!-- header section ends -->
 
 <style>
         [data-custom-class='body'],

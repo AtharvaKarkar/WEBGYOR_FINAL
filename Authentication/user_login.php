@@ -14,7 +14,7 @@ if(isset($_POST["signin"])) {
 	if(!$result){
 		die("data not found! ".mysqli_error($conn));
 		//die("SIGN UP TO CONTINUE");
-		header("index.php");  ## come to homepage
+		header("../Homepage/index.php");  ## come to homepage
 	}
 	//reading the data from the $result array
 	$cnt = mysqli_num_rows($result);

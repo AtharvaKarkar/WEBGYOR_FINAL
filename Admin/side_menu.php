@@ -73,7 +73,7 @@
 <body>
     <section class="menu">
         <nav class="nav">
-            <h1 aligin="left"><a href="/">< Back </a>
+            <h1 aligin="right"><a href="../Animation/index.php">Logout</a>
             </h1>
             <h1 class="special" align="center">WEBGYOR</h1>
             <a href="admin_index.php">
@@ -88,11 +88,19 @@
                 </button>
             </a>
 
-            <a href="add.php">
+            <a href="conatct.php"> 
                 <button class="menu-cotent">
-                    Add Item
+                    Contact-Details
                 </button>
             </a>
+
+            <a href="conatct.php"> 
+                <button class="menu-cotent">
+                    Call Details
+                </button>
+            </a>
+
+          
 
             <div class="foot">
                 <h1>Admin</h1>
