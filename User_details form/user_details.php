@@ -168,14 +168,14 @@ session_start();
           <label for="about">
             About your business (optional)
           </label>
-          <input id="address-2" type="text" name="address-2" autocomplete="shipping address-line2">
+          <input id="aboutbizz" type="text" name="about-business" autocomplete="">
         </div>
 
         <div class="mt-3 form__field">
             <label for="existing">
               Do you have an existing website/app? (optional)
             </label>
-            <input id="address-2" type="text" name="address-2" autocomplete="shipping address-line2">
+            <input id="address-2" type="text" name="address-2" autocomplete="">
         </div>
   
         <div class="sm:d-grid sm:grid-col-3 sm:mt-3">
@@ -192,7 +192,7 @@ session_start();
               
               <span data-required="true" aria-hidden="true"></span>
             </label>
-            <select id="address-state" name="address-state" autocomplete="shipping address-level1" required>
+            <select id="timings" name="time-choice" autocomplete="" required>
               <option value="" disabled selected>Please select</option>
               <option value="MR">9am to 11am</option>
               <option value="AF">1pm to 3pm</option>
@@ -215,7 +215,7 @@ session_start();
                 
                 <span data-required="true" aria-hidden="true"></span>
               </label>
-              <select id="address-state" name="address-state" autocomplete="shipping address-level1" required>
+              <select id="package" name="package-choice" autocomplete="" required>
                 <option value="" disabled selected>Please select</option>
                 <option value="MR">999</option>
                 <option value="AF">4999</option>
@@ -271,4 +271,5 @@ session_start();
   
   </div>
     </body>
+    <script src="../User_details form/user_details.js" ></script>
   </html>
