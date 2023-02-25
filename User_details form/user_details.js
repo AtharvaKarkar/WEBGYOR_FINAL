@@ -546,7 +546,7 @@ ready(function() {
   /****************************************************************************/
 
   function handleSuccess(response) {
-    const thankYou = progressForm.querySelector('#progress-form__thank-you');
+    const thankYou = progressForm.querySelector('#thank-you');
 
     // Clear all HTML Nodes that are not the thank you panel
     while (progressForm.firstElementChild !== thankYou) {

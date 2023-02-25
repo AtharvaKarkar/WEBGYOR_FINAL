@@ -19,7 +19,7 @@ session_start();
     <a data-aos="zoom-in-left" data-aos-delay="450" href="../Homepage/index.php">About</a>
     <a data-aos="zoom-in-left" data-aos-delay="600" href="../Templates/index.php">Our Work</a>
     <a data-aos="zoom-in-left" data-aos-delay="750" href="../services/Services.php">Services</a>
-    <a  data-aos="zoom-in-left" data-aos-delay="900" href="../Call/index.php">Join Us</a>
+    <a  data-aos="zoom-in-left" data-aos-delay="900" href="../User_details from/user_details.php">Interested?</a>
     <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150">Contact-Us</a>
 </nav>
 <!-- <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a> -->
@@ -145,129 +145,202 @@ session_start();
       </section>
       <!-- / End Step 1 -->
   
+      
+
       <!-- Step 2 -->
-      <section id="progress-form__panel-2" role="tabpane2" aria-labelledby="progress-form__tab-2" tabindex="0" hidden>
-        <div class="mt-3 form__field">
-          <label for="companyaddress">
-            Company Address
+    <section id="progress-form__panel-2" role="tabpanel" aria-labelledby="progress-form__tab-2" tabindex="0" hidden>
+      <div class="mt-3 form__field">
+        <label for="address">
+          Explain about your business...
+          <span data-required="true" aria-hidden="true"></span>
+        </label>
+        <input id="about" type="text" name="address" autocomplete="shipping address-line1" required>
+      </div>
+
+      <div class="mt-3 sm:mt-0 form__field">
+          <label for="users">
+            Do you have users out of India?
             <span data-required="true" aria-hidden="true"></span>
           </label>
-          <input id="companyaddress" type="text" name="companyaddress" autocomplete="companyaddress-line1" required>
+          <select id="users" name="users" autocomplete="users" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="AL">Yes</option>
+            <option value="AK">No</option>
+          
+          </select>
         </div>
 
         <div class="mt-3 sm:mt-0 form__field">
-            <label for="postalcode">
-              Postal code
-              <span data-required="true" aria-hidden="true"></span>
-            </label>
-            <input id="address-zip" type="text" name="address-zip" autocomplete="shipping postal-code" inputmode="numeric" required>
-          </div>
-        
-  
-        <div class="mt-3 form__field">
-          <label for="about">
-            About your business (optional)
+          <label for="type">
+            Type of your website?
+            <span data-required="true" aria-hidden="true"></span>
           </label>
-          <input id="aboutbizz" type="text" name="about-business" autocomplete="">
-        </div>
-
-        <div class="mt-3 form__field">
-            <label for="existing">
-              Do you have an existing website/app? (optional)
-            </label>
-            <input id="address-2" type="text" name="address-2" autocomplete="">
-        </div>
-  
-        <div class="sm:d-grid sm:grid-col-3 sm:mt-3">
-          <div class="mt-3 sm:mt-0 form__field">
-            <label for="address-city">
-              Convinient time to contact you
-              <span data-required="true" aria-hidden="true"></span>
-            </label>
-            <input id="time" type="text" name="time" autocomplete="time" required>
-          </div>
-  
-          <div class="mt-3 sm:mt-0 form__field">
-            <label for="address-state">
-              
-              <span data-required="true" aria-hidden="true"></span>
-            </label>
-            <select id="timings" name="time-choice" autocomplete="" required>
-              <option value="" disabled selected>Please select</option>
-              <option value="MR">9am to 11am</option>
-              <option value="AF">1pm to 3pm</option>
-              <option value="EV">4pm to 6pm</option>
-              <option value="NI">After 8pm</option>
-            </select>
-          </div>
-
-          <div class="sm:d-grid sm:grid-col-3 sm:mt-3">
-            <div class="mt-3 sm:mt-0 form__field">
-              <label for="address-city">
-                Package you are interested in.
-                <span data-required="true" aria-hidden="true"></span>
-              </label>
-              <input id="address-city" type="text" name="address-city" autocomplete="shipping address-level2" required>
-            </div>
-    
-            <div class="mt-3 sm:mt-0 form__field">
-              <label for="address-state">
-                
-                <span data-required="true" aria-hidden="true"></span>
-              </label>
-              <select id="package" name="package-choice" autocomplete="" required>
-                <option value="" disabled selected>Please select</option>
-                <option value="MR">999</option>
-                <option value="AF">4999</option>
-                <option value="EV">7999</option>
-                <option value="NI">8999</option>
-              </select>
-            </div>
-  
+          <select id="type" name="type" autocomplete="type" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="AL">Dynamic</option>
+            <option value="AK">Static</option>
           
-  
-        <div class="d-flex flex-column-reverse sm:flex-row align-items-center justify-center sm:justify-end mt-4 sm:mt-5">
-          <button type="button" class="mt-1 sm:mt-0 button--simple" data-action="prev">
-            Back
-          </button>
-          <button type="button" data-action="next">
-            Continue
-          </button>
+          </select>
         </div>
-      </section>
-      <!-- / End Step 2 -->
-  
-      <!-- Step 3 -->
-      <!--section id="progress-form__panel-3" role="tabpane3" aria-labelledby="progress-form__tab-3" tabindex="0">
-      <div class="mt-3 sm:mt-0 form__field">
-        <label for="agree">
-          Do you agree with our privacy policy?
+
+      
+
+        <div class="mt-3 sm:mt-0 form__field">
+          <label for="package">
+            Package you are interested in..
+            <span data-required="true" aria-hidden="true"></span>
+          </label>
+          <select id="package" name="package" autocomplete="package" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="AL">₹2999</option>
+            <option value="AK">₹6999</option>
+            <option value="AZ">₹8999</option>
+            <option value="AK">₹14999</option> 
+          </select>
+        </div>
+
+        
+        <fieldset id="facilities" class="mt-3 form__field" required>
+        <legend>
+          Facilities you are interested in...
+        </legend>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="A">
+          <span>WEB DEVELOPMENT</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>APP DEVELOPMENT</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="C">
+          <span>DIGITAL MARKETING</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>BRANDING</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>DESIGN</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>SEARCH ENGINE OPTIMIZATION</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>PHOTOGRAPHY</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>SOCIAL MEDIA MANAGEMENT</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>NONE</span>
+        </label>
+      
+      </fieldset>
+
+        
+        
+      <div class="d-flex flex-column-reverse sm:flex-row align-items-center justify-center sm:justify-end mt-4 sm:mt-5">
+        <button type="button" class="mt-1 sm:mt-0 button--simple" data-action="prev">
+          Back
+        </button>
+        <button type="button" data-action="next">
+          Continue
+        </button>
+      </div>
+    </section>
+    <!-- / End Step 2 -->
+
+     <!-- Step 3 -->
+    <section id="progress-form__panel-3" role="tabpanel" aria-labelledby="progress-form__tab-3" tabindex="0" hidden>
+      
+      <div class="mt-3 form__field">
+        <label for="product-recommendation">
+          How likely are you to recommend our products to friends or family?
           <span data-required="true" aria-hidden="true"></span>
         </label>
-        <select id="agree" name="agree" autocomplete="agree" required>
+        <select id="recommendation" name="recommendation" required>
           <option value="" disabled selected>Please select</option>
-          <option value="Yes">Yes</option>
-          <option value="No">No</option>
-          
+          <option value="Highly likely">Highly likely</option>
+          <option value="Very likely">Very likely</option>
+          <option value="Likely">Satisfied</option>
+          <option value="Very unlikely">Very unlikely</option>
+          <option value="Highly unlikely">Highly unlikely</option>
         </select>
+      </div>
+
+      <fieldset id="color" class="mt-3 form__field" required>
+        <legend>
+          Color scheme you prefer?
+        </legend>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="A">
+          <span>DARK AND POP</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>BRIGHT AND COLORFUL</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="C">
+          <span>SUBTLE AND SIMPLE</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="C">
+          <span>OTHER</span>
+        </label>
+      </fieldset>
+
+      <div class="mt-3 sm:mt-0 form__field">
+          <label for="time">
+            Convinient time to contact you..
+            <span data-required="true" aria-hidden="true"></span>
+          </label>
+          <select id="time" name="time" autocomplete="time" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="AL">9am-12pm</option>
+            <option value="AK">2pm-4pm</option>
+            <option value="AZ">6pm-9pm</option>
+            
+          </select>
         </div>
-        <button type="submit" value="submit">
-            Submit
-          </button>
-          </section>
         
-      
-      <!-- / End Step 3 -->
-  
-      <!-- Thank You -->
-      <section id="progress-form__thank-you" hidden>
-        <p>Thank you for your submission!</p>
-        <p>We appreciate you contacting us. One of our team members will get back to you very&nbsp;soon.</p>
-      </section>
-      <!-- / End Thank You -->
-  
-    </form>
-    <!-- / End Progress Form -->
+
+      <div class="mt-3 form__field">
+        <label for="feedback">
+          Do you have any additional feedback or comments about our products?
+        </label>
+        <textarea id="product-feedback" name="product-feedback" rows="5"></textarea>
+      </div>
+
+      <div class="d-flex flex-column-reverse sm:flex-row align-items-center justify-center sm:justify-end mt-4 sm:mt-5">
+        <button type="button" class="mt-1 sm:mt-0 button--simple" data-action="prev">
+          Back
+        </button>
+        <button type="submit">
+          Submit
+        </button>
+      </div>
+    </section>
+    <!-- / End Step 3 -->
+
+    <!-- Thank You-->
+    
+          
+    <section id="thank-you" hidden>
+      <p>Thank you for your submission!</p>
+      <p>We appreciate you contacting us. One of our team members will get back to you very&nbsp;soon.</p>
+    </section>
+    <!-- / End Thank You -->
+
+  </form>
+  <!-- / End Progress Form -->
+
   
   </div>
     </body>
