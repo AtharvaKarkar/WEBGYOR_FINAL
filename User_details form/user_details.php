@@ -154,7 +154,7 @@ session_start();
           Explain about your business...
           <span data-required="true" aria-hidden="true"></span>
         </label>
-        <input id="about" type="text" name="address" autocomplete="shipping address-line1" required>
+        <input id="about" type="text" name="explain-business" autocomplete="" required>
       </div>
 
       <div class="mt-3 sm:mt-0 form__field">
@@ -175,7 +175,7 @@ session_start();
             Type of your website?
             <span data-required="true" aria-hidden="true"></span>
           </label>
-          <select id="type" name="type" autocomplete="type" required>
+          <select id="type" name="website-type" autocomplete="type" required>
             <option value="" disabled selected>Please select</option>
             <option value="AL">Dynamic</option>
             <option value="AK">Static</option>
@@ -205,35 +205,35 @@ session_start();
           Facilities you are interested in...
         </legend>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="A">
+          <input type="checkbox" name="product-website" value="A">
           <span>WEB DEVELOPMENT</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="B">
+          <input type="checkbox" name="product-app" value="B">
           <span>APP DEVELOPMENT</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="C">
+          <input type="checkbox" name="product-digital" value="C">
           <span>DIGITAL MARKETING</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="B">
+          <input type="checkbox" name="product-branding" value="B">
           <span>BRANDING</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="B">
+          <input type="checkbox" name="product-design" value="B">
           <span>DESIGN</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="B">
+          <input type="checkbox" name="product-seo" value="B">
           <span>SEARCH ENGINE OPTIMIZATION</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="B">
+          <input type="checkbox" name="product-photo" value="B">
           <span>PHOTOGRAPHY</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="B">
+          <input type="checkbox" name="product-smgmt" value="B">
           <span>SOCIAL MEDIA MANAGEMENT</span>
         </label>
         <label class="form__choice-wrapper">
@@ -279,19 +279,19 @@ session_start();
           Color scheme you prefer?
         </legend>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="A">
+          <input type="checkbox" name="dark-pop" value="A">
           <span>DARK AND POP</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="B">
+          <input type="checkbox" name="bright-colorful" value="B">
           <span>BRIGHT AND COLORFUL</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="C">
+          <input type="checkbox" name="subtle-simple" value="C">
           <span>SUBTLE AND SIMPLE</span>
         </label>
         <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="C">
+          <input type="checkbox" name="other" value="C">
           <span>OTHER</span>
         </label>
       </fieldset>
