@@ -8,13 +8,14 @@ if(isset($_POST["signup"])){
     //$cpwd=strip_tags($_POST["loginPasswordConfirm"]);
 
     $pwd=md5($pwd);
-    $sql="INSERT INTO users(id,username,email,password) VALUES (id, '$name', '$email', '$pwd')";
-    $result=mysqli_query($conn,$sql);
+    $sql = "INSERT INTO `users`(`username`, `email`, `password`) VALUES ('$name','$email','$pwd')";
+    $result = mysqli_query($conn,$sql);
     if($result){
         echo "Data added successfully";
         header("Location:../Homepage/index.php");
     }else{
-        echo "record not saved";
+        echo "Record not saved";
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
 }
 
