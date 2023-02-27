@@ -250,7 +250,7 @@ session_start();
                         <path d="M5 12l5 5l10 -10"></path>
                       </svg></span><span>Custom Emails.</span></li>
                 </ul>
-              </div><a class="btn btn-primary" role="button" href="#" style="background: rgb(134,72,156);">Add</a>
+              </div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a>
             </div>
           </div>
         </div>
@@ -283,7 +283,7 @@ session_start();
                         <path d="M5 12l5 5l10 -10"></path>
                       </svg></span><span>Custom Emails.</span></li>
                 </ul>
-              </div><a class="btn btn-primary" role="button" href="#" style="background: rgb(134,72,156);">Add</a>
+              </div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a>
             </div>
           </div>
         </div>
@@ -332,7 +332,7 @@ session_start();
                         <path d="M5 12l5 5l10 -10"></path>
                       </svg></span><span>SEO</span></li>
                 </ul>
-              </div><a class="btn btn-warning" role="button" href="#" style="background: rgb(134,72,156);">Add</a>
+              </div><a class="btn btn-warning" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a>
             </div>
           </div>
         </div>
@@ -394,7 +394,7 @@ session_start();
                         <path d="M5 12l5 5l10 -10"></path>
                       </svg></span><span>2x Business Consultation ( till subscription ends)&nbsp;</span></li>
                 </ul>
-              </div><a class="btn btn-primary" role="button" href="#" style="background: rgb(134,72,156);">Add</a>
+              </div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a>
             </div>
           </div>
         </div>
