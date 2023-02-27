@@ -21,35 +21,7 @@ session_start();
 </head>
 
 <body>
-  <!--nav class="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-3" id="mainNav"
-    style="--bs-body-color: #9d7a7a;background: rgb(18,18,18);color: rgb(238,234,234);--bs-dark: #e8ebee;--bs-dark-rgb: 232,235,238;font-family: Abel, sans-serif;">
-    <div class="container"><a class="navbar-brand d-flex align-items-center" href="Services.html"><span
-          class="pulse animated" style="color: rgba(194,98,210,0.9);">Webgyor</span></a><button
-        data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle
-          navigation</span><span class="navbar-toggler-icon" style="background: #e05050;"></span></button>
-      <div class="collapse navbar-collapse" id="navcol-1">
-        <ul class="navbar-nav mx-auto">
-
-          <li class="nav-item"><a class="nav-link" href="Home.html"
-              style="color: rgba(248,243,243,0.55);font-family: 'Abyssinica SIL', serif;font-size: 18px;">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="features.html"
-              style="color: rgba(248,243,243,0.55);font-family: 'Abyssinica SIL', serif;font-size: 18px;">Templates</a>
-          </li>
-          <li class="nav-item"><a class="nav-link active" href="Services.html"
-              style="color: rgba(248,243,243,0.55);font-family: 'Abyssinica SIL', serif;font-size: 18px;">Services</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="pricing.html"
-              style="color: rgba(248,243,243,0.55);font-family: 'Abyssinica SIL', serif;font-size: 18px;">Pricing</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="contacts.html"
-              style="color: rgba(248,243,243,0.55);font-family: 'Abyssinica SIL', serif;font-size: 18px;">Contacts</a>
-          </li>
-        </ul><a class="btn btn-primary shadow" role="button" href="signup.html"
-          style="background: rgb(205,153,218);color: rgb(157,51,174);font-weight: bold;font-family: Abel, sans-serif;font-size: 18px;">Sign
-          up</a>
-      </div>
-    </div>
-  </nav-->
+  
   <!-- header section starts  -->
 
   <header class="header">
@@ -64,7 +36,7 @@ session_start();
       <a href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
       <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
       <a href="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="#Services">Services</a>
-      <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900" >Join Us</a>
+      <a href="../User_details form/user_details.php" data-aos="zoom-in-left" data-aos-delay="900" >Interested?</a>
       <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
     </nav>
 
@@ -253,7 +225,7 @@ session_start();
           <div class="card border-0 h-100">
             <div class="card-body d-flex flex-column justify-content-between p-4" style="background: #130113;">
               <div>
-                <h6 class="fw-bold text-muted">Standard ( per month )&nbsp;</h6>
+                <h6 class="fw-bold text-muted">Standard &nbsp;</h6>
                 <h4 class="display-5 fw-bold mb-4">₹999&nbsp;</h4>
                 <ul class="list-unstyled">
                   <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon me-2"><svg
@@ -286,7 +258,7 @@ session_start();
           <div class="card border-0 h-100">
             <div class="card-body d-flex flex-column justify-content-between p-4" style="background: #130113;">
               <div>
-                <h6 class="fw-bold text-muted">Standard ( yearly )</h6>
+                <h6 class="fw-bold text-muted">Moderate</h6>
                 <h4 class="display-5 fw-bold mb-4">₹4999</h4>
                 <ul class="list-unstyled">
                   <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon me-2"><svg
@@ -321,7 +293,7 @@ session_start();
                 class="badge bg-warning position-absolute top-0 end-0 rounded-bottom-left text-uppercase text-primary">Most
                 Popular</span>
               <div>
-                <h6 class="fw-bold text-muted">Pro&nbsp; ( yearly)</h6>
+                <h6 class="fw-bold text-muted">Pro&nbsp;</h6>
                 <h4 class="display-5 fw-bold mb-4">₹6999</h4>
                 <ul class="list-unstyled">
                   <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon me-2"><svg
@@ -368,7 +340,7 @@ session_start();
           <div class="card border-0 h-100">
             <div class="card-body d-flex flex-column justify-content-between p-4" style="background: #130113;">
               <div class="pb-4">
-                <h6 class="fw-bold text-muted" style="color: rgb(99,142,221);">Enterprise&nbsp; &nbsp; &nbsp; ( yearly)
+                <h6 class="fw-bold text-muted" style="color: rgb(99,142,221);">Premium&nbsp; &nbsp; &nbsp;
                 </h6>
                 <h4 class="display-5 fw-bold mb-4">₹8999</h4>
                 <ul class="list-unstyled">
@@ -564,7 +536,7 @@ session_start();
         <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us</a>
         <a href="../Know_more/Know_more.php" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
         <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
-        <a href="../Privacy policy/index.php" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy </a>
+        <a href="../Privacy policy/privacy.php" class="links"> <i class="fas fa-arrow-right"></i> Privacy Policy </a>
 
 
       </div>

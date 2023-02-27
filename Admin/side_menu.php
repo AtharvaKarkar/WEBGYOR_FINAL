@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Panel</title>
+    
     <script>
         var myfunc=function()
         {
@@ -18,24 +20,24 @@
         *{
             font:300 breeze sans
         }
-        .memu {
+        .menu {
             height:100%;
             width:20%;
             margin: 0px;
             position: fixed;
-            background-color: #C21E56;
+            background-color:#bb5bd6 ;
             top: 0px;
             bottom: 0px;
             left: 0px;
         }
         .menu-content
         {
-            color: black;
-            width: 100%;
+            color: white;
+            width: 500%;
             height: 120px;
             margin: 0px;
             text-align: center;
-            background-color: white;
+            background-color: black;
             vertical-align: middle;
             border-radius: 2px;
             font: 300 helvetica;
@@ -44,9 +46,25 @@
             cursor: pointer;
             font-size: 30px;
         }
+        .menu-cotent
+        {
+            color: black;
+            width: 100%;
+            height: 100px;
+            margin: 0px;
+            text-align: center;
+            background-color: #0000;
+            vertical-align: middle;
+            border-radius: 2px;
+            font: 300 helvetica;
+            margin-bottom: 50px;
+            border: 0.5px solid black;
+            cursor: pointer;
+            font-size: 22px;
+        }
         .menu-content:hover
         {
-            background-color: gold;
+            background-color: #bb5bd6;
             transform:scaleY(1.05);
             transition-duration: 400ms;
             color: white;
@@ -60,16 +78,19 @@
 
         .foot h1
         {
-            color: white;
+            color: black;
         }
 
         .special:hover
         {
             cursor: grab;
         }
+        .body{
+            background-color:black;
+        }
     </style>
 </head>
-
+     
 <body>
     <section class="menu">
         <nav class="nav">

@@ -28,7 +28,7 @@ session_start();
             <a data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
             <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
             <a href="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" href="#Services">Services</a>
-            <a href="../Call/index.php" data-aos="zoom-in-left" data-aos-delay="900">Join Us</a>
+            <a href="../User_details form/user_details.php" data-aos="zoom-in-left" data-aos-delay="900">Interested?</a>
             <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" href="#Contact-Us">Contact-Us</a>
         </nav>
 
