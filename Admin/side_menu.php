@@ -115,7 +115,7 @@
                 </button>
             </a>
 
-            <a href="calldetails.php"> 
+            <a href="call.php"> 
                 <button class="menu-cotent">
                     Call Details
                 </button>

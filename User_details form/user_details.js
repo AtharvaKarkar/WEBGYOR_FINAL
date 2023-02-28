@@ -116,7 +116,7 @@ ready(function() {
     } else if (val !== '' && !isValidPhone(val)) {
       return {
         isValid: false,
-        message: 'Please provide a valid US phone number.'
+        message: 'Please provide a valid phone-number.'
       };
     } else {
       return {
