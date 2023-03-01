@@ -495,18 +495,7 @@ ready(function() {
    */
 
   async function getIP(url = 'https://api.ipify.org?format=json') {
-    const response = await fetch(url, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    });
-
-    if (!response.ok) {
-      throw new Error(response.statusText);
-    }
-
-    return response.json();
+    return "117.99.254.11";
   }
 
   /*****************************************************************************
@@ -590,7 +579,7 @@ ready(function() {
 
     // Get the API endpoint using the form action attribute
     const form = e.currentTarget
-        , API  = new URL(form.action);
+        , API  = "";
 
     validateStep(currentStep).then(() => {
 
@@ -618,21 +607,11 @@ ready(function() {
           'fields': formFields,
           'meta': {
             'submittedAt': formTime,
-            'ipAddress': response.ip
+            'ipAddress': response
           }
         };
       })
-      .then(data => postData(API, data))
-      .then(response => {
-        setTimeout(() => {
-          handleSuccess(response)
-        }, 5000); // An artificial delay to show the state of the submit button
-      })
-      .catch(error => {
-        setTimeout(() => {
-          handleError(error)
-        }, 5000); // An artificial delay to show the state of the submit button
-      });
+      
 
     }).catch(invalidFields => {
 
