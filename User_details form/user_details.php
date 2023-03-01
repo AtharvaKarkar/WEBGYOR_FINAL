@@ -12,7 +12,7 @@ session_start();
 
 <!--div id="menu-btn" class="fas fa-bars"></div-->
 
-<a  data-aos="zoom-in-left" data-aos-delay="150" href="../Homepage/index.php" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR </a>
+<a  data-aos="zoom-in-left" data-aos-delay="150" href="../Homepage/index.php" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR</a>
 
 <nav class="navbar">
     <a data-aos="zoom-in-left" data-aos-delay="300" href="../Homepage/index.php">Home</a>
@@ -293,8 +293,8 @@ session_start();
 
   
         <div class="d-flex align-items-center justify-center sm:justify-end mt-4 sm:mt-5">
-          <button type="button" data-action="next" >
-            Continue
+          <button type="button" data-action="submit" >
+            Submit
           </button>
         </div>
       </section>

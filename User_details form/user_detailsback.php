@@ -1,3 +1,4 @@
+// don't use this file
 <?php
 // user details db needs to be created 
 require_once('../Authentication/Db_connection.php');
