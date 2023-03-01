@@ -12,7 +12,7 @@ session_start();
 
 <!--div id="menu-btn" class="fas fa-bars"></div-->
 
-<a  href="../Homepage/index.html" data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR </a>
+<a  data-aos="zoom-in-left" data-aos-delay="150" href="../Homepage/index.php" class="logo"> <i class="fas fa-shapes"></i>WEBGYOR </a>
 
 <nav class="navbar">
     <a data-aos="zoom-in-left" data-aos-delay="300" href="../Homepage/index.php">Home</a>
