@@ -815,7 +815,7 @@ a:focus {
 
 :root {
 
-  --form-accent-color: var(--light-blue-500);
+  --accent-color: var(--light-blue-500);
   --form-error-color: 356, 75%, 53%; /* #e12d39 */
 
   /* --- Fields --- */
