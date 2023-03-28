@@ -12,11 +12,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($
     $data = array_merge($step1, $step2);
 
     // Assign values to variables
-    $firstname = $data['firstname'];
-    $lastname = $data['lastname'];
+    $firstname = $data['fname'];
+    $lastname = $data['lname'];
     $companyname = $data['companyname'];
-    $peremail = $data['peremail'];
-    $compemail = $data['compemail'];
+    $peremail = $data['pemailid'];
+   /* $compemail = $data['compemail'];
     $newsletter = $data['newsletter'];
     $type = $data['type'];
     $phoneno = $data['phoneno'];
@@ -41,6 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($
     $brightcolorful = $data['brightcolorful'];
     $subtlesimple = $data['subtlesimple'];
     $productfeed = $data['productfeed'];
+    */
 
     // Insert data into database table
     $sql = "INSERT INTO `userdetails` (`firstname`,`lastname`,`companyname`,`peremail`,`compemail`,`newsletter`,`type`,`phoneno`,`postalcode`,`time`,`aboutbizz`,`specify`,`expbusiness`,`users`,`typewebsite`,`packageintrest`,`webdev`,`appdev`,`digimark`,`branding`,`design`,`seo`,`photo`,`smgmt`,`recomm`,`darktop`,`brightcolorful`,`subtlesimple`,`productfeed`) 
