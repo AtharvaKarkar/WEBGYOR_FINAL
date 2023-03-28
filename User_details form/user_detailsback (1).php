@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('../Authentication/Db_connection.php');
-
+if($conn) {
 // Check if form was submitted and session variables exist
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($_SESSION['step2'])) {
     // Get session variables
@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($
     $productfeed = $data['productfeed'];
 
     // Insert data into database table
-    $sql = "INSERT INTO 'userdetails' ('firstname','lastname','companyname','peremail','compemail','newsletter','type','phoneno','postalcode','time','aboutbizz','specify','expbusiness','users','typewebsite','packageintrest','webdev','appdev','digimark','branding','design','seo','photo','smgmt','recomm','darktop','brightcolorful','subtlesimple','productfeed') 
+    $sql = "INSERT INTO `userdetails` (`firstname`,`lastname`,`companyname`,`peremail`,`compemail`,`newsletter`,`type`,`phoneno`,`postalcode`,`time`,`aboutbizz`,`specify`,`expbusiness`,`users`,`typewebsite`,`packageintrest`,`webdev`,`appdev`,`digimark`,`branding`,`design`,`seo`,`photo`,`smgmt`,`recomm`,`darktop`,`brightcolorful`,`subtlesimple`,`productfeed`) 
             VALUES ('$firstname','$lastname','$companyname','$peremail','$compemail','$newsletter','$type','$phoneno','$postalcode','$time','$aboutbizz','$specify','$expbusiness','$users','$typewebsite','$packageintrest','$webdev','$appdev','$digimark','$branding','$design','$seo','$photo','$smgmt','$recomm','$darktop','$brightcolorful','$subtlesimple','$productfeed')";
     $result = mysqli_query($conn, $sql);
 
@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($
         echo "Error: " . mysqli_error($conn);
     }
 }
-
+}
 mysqli_close($conn);
 ?>
 
