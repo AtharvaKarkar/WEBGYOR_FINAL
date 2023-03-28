@@ -1,3 +1,6 @@
+<?php
+session_start()
+
 <html>
 <head>
     <title>Registration Form</title>
@@ -181,3 +184,4 @@
     <script type="text/javascript" src="user.js" ></script>
 </body>
 </html>
+?>
