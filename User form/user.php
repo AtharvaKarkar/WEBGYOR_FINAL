@@ -1,5 +1,6 @@
 <?php
 session_start()
+?>
 
 <html>
 <head>
@@ -184,4 +185,3 @@ session_start()
     <script type="text/javascript" src="user.js" ></script>
 </body>
 </html>
-?>
