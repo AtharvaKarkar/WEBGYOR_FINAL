@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $discussion_topic = $_POST['discussion_topic'];
 
 // Insert data into database table
-  $sql = "INSERT INTO join_us (name, phone, time, discussion_topic) VALUES ('$name', '$phone', '$time', '$discussion_topic')";
+  $sql = "INSERT INTO 'join_us'('name', 'phone', 'time', 'discussion_topic') VALUES ('$name', '$phone', '$time', '$discussion_topic')";
   $result = mysqli_query($conn, $sql);
 
   if ($result) {

@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($
     $productfeed = $data['productfeed'];
 
     // Insert data into database table
-    $sql = "INSERT INTO userdetails (firstname,lastname,companyname,peremail,compemail,newsletter,type,phoneno,postalcode,time,aboutbizz,specify,expbusiness,users,typewebsite,packageintrest,webdev,appdev,digimark,branding,design,seo,photo,smgmt,recomm,darktop,brightcolorful,subtlesimple,productfeed) 
+    $sql = "INSERT INTO 'userdetails' ('firstname','lastname','companyname','peremail','compemail','newsletter','type','phoneno','postalcode','time','aboutbizz','specify','expbusiness','users','typewebsite','packageintrest','webdev','appdev','digimark','branding','design','seo','photo','smgmt','recomm','darktop','brightcolorful','subtlesimple','productfeed') 
             VALUES ('$firstname','$lastname','$companyname','$peremail','$compemail','$newsletter','$type','$phoneno','$postalcode','$time','$aboutbizz','$specify','$expbusiness','$users','$typewebsite','$packageintrest','$webdev','$appdev','$digimark','$branding','$design','$seo','$photo','$smgmt','$recomm','$darktop','$brightcolorful','$subtlesimple','$productfeed')";
     $result = mysqli_query($conn, $sql);
 

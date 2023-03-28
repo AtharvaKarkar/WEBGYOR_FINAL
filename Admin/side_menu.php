@@ -121,12 +121,7 @@
                 </button>
             </a>
 
-          
-
-            <div class="foot">
-                <h1>Admin</h1>
-            </div>
-
+    
 
 
         </nav>

@@ -1,4 +1,5 @@
 <?php
+// front-end code
 session_start();
 ?>
 <!DOCTYPE html>
