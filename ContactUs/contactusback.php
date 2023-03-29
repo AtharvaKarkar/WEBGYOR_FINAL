@@ -7,7 +7,7 @@ if($_SERVER['REQUEST_METHOD']== 'POST') {
     $phone=$_POST["phone"];
     $message=$_POST["message"];
     // insert data into db
-    $sql="INSERT INTO 'contactus'('name', 'email', 'phone', 'message') VALUES ('$name', '$email', '$phone', '$message')";
+    $sql="INSERT INTO `contactus`(`name`, `email`, `phone`, `message`) VALUES ('$name', '$email', '$phone', '$message')";
     $result=mysqli_query($conn,$sql);
 
     if($result){

@@ -66,7 +66,7 @@ session_start()
                            <th><h5 align="left" >Type of website: </h5></th>
                            <tr>
                                <td>
-                                 <select style="font-size: 15px;" >
+                                 <select style="font-size: 15px;" name="websiteType">
                                      <option>Event management</option><option>E-commerce</option><option>Business</option>
                                      <option>Education</option><option>Travel</option><option>Agriculture</option>
                                 </select>                                                   
@@ -79,7 +79,7 @@ session_start()
                             <th><h5 align="right" >Are you having users outside India?</h5> </h5></th>
                             <tr>
                                <td>
-                                 <select style="font-size: 15px;" >
+                                 <select style="font-size: 15px;" name="usersOutsideIndia" >
                                    <option>Yes</option><option>No</option>
                                  </select>                                                   
                                 </td>
@@ -98,7 +98,7 @@ session_start()
                         <th><h5 align="left" >Type of package : </h5></th>
                         <tr>
                             <td>
-                              <select style="font-size: 15px;" >
+                              <select style="font-size: 15px;" name="package_type" >
                                   <option>₹2999</option><option>₹6999</option><option>₹8999</option>
                                   <option>₹14999</option>
                              </select>                                                   
@@ -110,7 +110,7 @@ session_start()
                         <th><h5 align="left" >Choose any particular facility: </h5></th>
                         <tr>
                             <td>
-                              <select style="font-size: 15px;" >
+                              <select style="font-size: 15px;" name="facility" >
                                   <option>DESIGN</option><option>WEB DEVELOPMENT</option><option>SEARCH ENGINE OPTIMIZATION</option>
                                   <option>PHOTOGRAPHY</option><option>APP DEVELOPMENT</option><option>DIGITAL MARKETING</option><option>BRANDING</option>
                                   <option>SOCIAL MEDIA MANAGEMENT</option><option>NONE</option>
@@ -128,10 +128,10 @@ session_start()
                 <h3 class="fs-subtitle">Address information</h3>
                 <table>
                     <tr>
-                        <td colspan="3"><input type="text" name="add1" placeholder="Permanent Address" ></td> 
+                        <td colspan="3"><input type="text" name="peraddress" placeholder="Permanent Address" ></td> 
                     </tr>
                     <tr>
-                        <td><input type="text" name="add1" placeholder="Permanent Address" ></td>
+                       <!-- <td><input type="text" name="add1" placeholder="Permanent Address" ></td> -->
                         <td><input type="text" name="state" placeholder="State" ></td>
                         <td><input type="text" name="pincode" placeholder="Pincode" ></td>
                     </tr><br>
@@ -141,7 +141,7 @@ session_start()
                         <th><h5 align="left" >Any color preferences? </h5></th>
                         <tr>
                             <td>
-                              <select style="font-size: 15px;" >
+                              <select style="font-size: 15px;" name=color_preference>
                                   <option>DARK AND POP</option><option>BRIGHT AND COLORFUL</option><option>SUBTLE AND SIMPLE</option>
                                   <option>OTHER</option>
                              </select>                                                   
@@ -153,7 +153,7 @@ session_start()
                         <th><h5 align="left" >Convinient time to contact you?</h5></th>
                         <tr>
                             <td>
-                              <select style="font-size: 15px;" >
+                              <select style="font-size: 15px;" name="time" >
                                   <option>9AM TO 11AM</option><option>1PM TO 4PM</option><option>5PM TO 8PM</option>
                              </select>                                                   
                             </td>

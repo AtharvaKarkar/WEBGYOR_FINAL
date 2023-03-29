@@ -320,7 +320,7 @@ session_start();
             <h3>quick links</h3>
             <a href="../ContactUs/index.php" class="links"> <i class="fas fa-arrow-right"></i> Contact Us</a>
             <a href="../Know_more/Know_more.php" class="links"> <i class="fas fa-arrow-right"></i> Know More </a>
-            <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Book a Call </a>
+            <a href="../Call/index.php" class="links"> <i class="fas fa-arrow-right"></i> Join-us </a>
             <a href="../Privacy policy/Privacy.php" class="links"> <i class="fas fa-arrow-right"></i>Privacy Policy </a>
             
         </div>

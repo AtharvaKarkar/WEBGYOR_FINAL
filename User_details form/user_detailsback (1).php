@@ -14,8 +14,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($
     // Assign values to variables
     $firstname = $data['fname'];
     $lastname = $data['lname'];
-    $companyname = $data['companyname'];
     $peremail = $data['pemailid'];
+    $percontact=$data["pcontact"];
+    $compname = $data['companyName'];
+    $compemail=$data['EmailId'];
+    $explainbiz=$data['Explain'];
+    
+
    /* $compemail = $data['compemail'];
     $newsletter = $data['newsletter'];
     $type = $data['type'];
@@ -44,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($
     */
 
     // Insert data into database table
-    $sql = "INSERT INTO `userdetails` (`firstname`,`lastname`,`companyname`,`peremail`,`compemail`,`newsletter`,`type`,`phoneno`,`postalcode`,`time`,`aboutbizz`,`specify`,`expbusiness`,`users`,`typewebsite`,`packageintrest`,`webdev`,`appdev`,`digimark`,`branding`,`design`,`seo`,`photo`,`smgmt`,`recomm`,`darktop`,`brightcolorful`,`subtlesimple`,`productfeed`) 
+    $sql = "INSERT INTO userdetails(`firstname`,`lastname`,`companyname`,`peremail`,`compemail`,`newsletter`,`type`,`phoneno`,`postalcode`,`time`,`aboutbizz`,`specify`,`expbusiness`,`users`,`typewebsite`,`packageintrest`,`webdev`,`appdev`,`digimark`,`branding`,`design`,`seo`,`photo`,`smgmt`,`recomm`,`darktop`,`brightcolorful`,`subtlesimple`,`productfeed`) 
             VALUES ('$firstname','$lastname','$companyname','$peremail','$compemail','$newsletter','$type','$phoneno','$postalcode','$time','$aboutbizz','$specify','$expbusiness','$users','$typewebsite','$packageintrest','$webdev','$appdev','$digimark','$branding','$design','$seo','$photo','$smgmt','$recomm','$darktop','$brightcolorful','$subtlesimple','$productfeed')";
     $result = mysqli_query($conn, $sql);
 
@@ -61,5 +66,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['step1']) && isset($
 }
 }
 mysqli_close($conn);
-?>
 

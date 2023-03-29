@@ -117,12 +117,9 @@
 
             <a href="call.php"> 
                 <button class="menu-cotent">
-                    Call Details
+                    Joining Details
                 </button>
             </a>
-
-    
-
 
         </nav>
     </section>
