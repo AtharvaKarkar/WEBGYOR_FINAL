@@ -1,6 +1,7 @@
 <?php
 // front-end code
 session_start();
+include("../Uform/uformback.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +63,7 @@ session_start();
               First name
               <span data-required="true" aria-hidden="true"></span>
             </label>
-            <input id="first-name" type="text" name="first-name" autocomplete="given-name" required>
+            <input id="first-name" type="text" name="fname" autocomplete="given-name" required>
           </div>
 
           <div class="mt-3 sm:mt-0 form__field">
@@ -70,7 +71,7 @@ session_start();
               Last name
               <span data-required="true" aria-hidden="true"></span>
             </label>
-            <input id="last-name" type="text" name="last-name" autocomplete="last-name" required>
+            <input id="last-name" type="text" name="lname" autocomplete="last-name" required>
           </div>
 
           <div class="mt-3 sm:mt-0 form__field">
@@ -78,7 +79,7 @@ session_start();
               Company name
               <span data-required="true" aria-hidden="true"></span>
             </label>
-            <input id="company-name" type="text" name="company-name" autocomplete="company-name" required>
+            <input id="company-name" type="text" name="companyName" autocomplete="company-name" required>
           </div>
           </div>
         
@@ -88,7 +89,7 @@ session_start();
              Personal Email address
             <span data-required="true" aria-hidden="true"></span>
           </label>
-          <input id="personalemail-address" type="email" name="personalemail-address" autocomplete="personalemail" inputmode="personalemail" required>
+          <input id="personalemail-address" type="email" name="pemailid" autocomplete="personalemail" inputmode="personalemail" required>
         </div>
 
         <div class="mt-3 form__field">
@@ -96,22 +97,22 @@ session_start();
              Company Email address
               <span data-required="true" aria-hidden="true"></span>
             </label>
-            <input id="companyemail-address" type="email" name="companyemail-address" autocomplete="companyemail" inputmode="companyemail" required>
+            <input id="companyemail-address" type="email" name="Emailid" autocomplete="companyemail" inputmode="companyemail" required>
         </div>
   
-        <div class="mt-1 form__field">
+     <!--   <div class="mt-1 form__field">
           <label class="form__choice-wrapper">
             <input id="email-newsletter" type="checkbox" name="email-newsletter" value="Yes" checked>
             <span>Yes, I would like to sign up to receive the newsletter</span>
           </label>
-        </div>
+        </div>  -->
 
         <div class="mt-3 sm:mt-0 form__field">
             <label for="address-state">
               Type of your website
               <span data-required="true" aria-hidden="true"></span>
             </label>
-            <select id="type" name="type" autocomplete="shipping address-level1" required>
+            <select id="type" name="type" autocomplete="shipping address-level1" name="websiteType" required>
               <option value="" disabled selected>Please select</option>
               <option value="E">E-commerce</option>
               <option value="B">Business</option>
@@ -133,9 +134,9 @@ session_start();
   
         <div class="mt-3 form__field">
           <label for="phone-number">
-            Phone number (optional)
+            Phone number (required)
           </label>
-          <input id="phone-number" type="tel" name="phone-number" autocomplete="tel" inputmode="tel">
+          <input id="phone-number" type="tel" name="pcontact" autocomplete="tel" inputmode="tel" required>
         </div>
 
         <div class="mt-3 form__field">
@@ -143,7 +144,7 @@ session_start();
           Explain about your business...
           <span data-required="true" aria-hidden="true"></span>
         </label>
-        <input id="about" type="text" name="explain-business" autocomplete="" required>
+        <input id="about" type="text" name="Explain" autocomplete="" required>
       </div>
 
       <div class="mt-3 sm:mt-0 form__field">
@@ -151,7 +152,7 @@ session_start();
             Do you have users out of India?
             <span data-required="true" aria-hidden="true"></span>
           </label>
-          <select id="users" name="users" autocomplete="users" required>
+          <select id="users" name="usersOutsideIndia" autocomplete="users" required>
             <option value="" disabled selected>Please select</option>
             <option value="AL">Yes</option>
             <option value="AK">No</option>
@@ -164,7 +165,7 @@ session_start();
             Type of your website?
             <span data-required="true" aria-hidden="true"></span>
           </label>
-          <select id="type" name="website-type" autocomplete="type" required>
+          <select id="type" name="web_mode" autocomplete="type" required>
             <option value="" disabled selected>Please select</option>
             <option value="AL">Dynamic</option>
             <option value="AK">Static</option>
@@ -179,7 +180,7 @@ session_start();
             Package you are interested in..
             <span data-required="true" aria-hidden="true"></span>
           </label>
-          <select id="package" name="package" autocomplete="package" required>
+          <select id="package" name="package_type" autocomplete="package" required>
             <option value="" disabled selected>Please select</option>
             <option value="AL">₹2999</option>
             <option value="AK">₹6999</option>
@@ -188,6 +189,25 @@ session_start();
           </select>
         </div>
 
+
+        <div class="mt-3 sm:mt-0 form__field">
+          <label for="services">
+             Services you are interested in..
+            <span data-required="true" aria-hidden="true"></span>
+          </label>
+          <select id="package" name="facility" autocomplete="facility" >
+            <option value="" disabled selected>Please select</option>
+            <option value="webdev">WEB DEVELOPMENT</option>
+            <option value="appdev">APP DEVELOPMENT</option>
+            <option value="socialmgmt">SOCIAL MEDIA MANAGEMENT</option>
+            <option value="design">DESIGN</option> 
+            <option value="photo">PHOTOGRAPHY</option> 
+            <option value="digimark">DIGITAL MARKETING</option> 
+            <option value="seo">SEARCH ENGINE OPTIMIZATION</option>
+            <option value="brand">BRANDING</option>  
+          </select>
+        </div>
+        <!--
         <fieldset id="facilities" class="mt-3 form__field" required>
         <legend>
           Facilities you are interested in...
@@ -230,6 +250,7 @@ session_start();
         </label>
         </fieldset>
 
+
         <div class="mt-3 form__field" required>
         <label for="product-recommendation">
           How likely are you to recommend our products to friends or family?
@@ -244,6 +265,7 @@ session_start();
           <option value="Highly unlikely">Highly unlikely</option>
         </select>
       </div>
+     
 
       <fieldset id="color" class="mt-3 form__field" required>
         <legend>
@@ -266,6 +288,20 @@ session_start();
           <span>OTHER</span>
         </label>
       </fieldset>
+              -->
+
+
+      <div class="mt-3 sm:mt-0 form__field">
+          <label for="color">
+            Color scheme you prefer ?
+            <span data-required="true" aria-hidden="true"></span>
+          </label>
+          <select id="time" name="time" autocomplete="time" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="bright">BRIGHT AND COLORFUL</option>
+            <option value="dark">DARK AND POP</option>
+            <option value="subtle">SUBTLE AND SIMPLE</option>
+          </select>
 
         
        
@@ -276,9 +312,9 @@ session_start();
           </label>
           <select id="time" name="time" autocomplete="time" required>
             <option value="" disabled selected>Please select</option>
-            <option value="AL">9am-12pm</option>
-            <option value="AK">2pm-4pm</option>
-            <option value="AZ">6pm-9pm</option>
+            <option value="mor">9am-12pm</option>
+            <option value="aft">2pm-4pm</option>
+            <option value="eve">6pm-9pm</option>
             
           </select>
         </div>
@@ -288,7 +324,7 @@ session_start();
         <label for="feedback">
           Do you have any additional feedback or comments about our products?
         </label>
-        <textarea id="product-feedback" name="product-feedback" rows="5"></textarea>
+        <textarea id="product-feedback" name="feedback" rows="5"></textarea>
       </div>
 
 

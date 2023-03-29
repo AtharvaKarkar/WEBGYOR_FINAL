@@ -24,10 +24,11 @@ if(isset($_POST['submit'])){
     $package_type=$_POST['package_type'];
     $convi_time=$_POST['time'];
     $feedback=$_POST['feedback'];
+    $web_mode=$_POST['web_mode'];
  
   
     // insert user details into database
-    $sql = "INSERT INTO userdetails (fname, lname, pemailid, pcontact, companyName, CompEmailid, Explain, websiteType, usersOutsideIndia, package_type,color_pref, facility, peraddress,city,country_state, pincode, country,feedback,convi_time) VALUES ('$fname', '$lname', '$pemailid', '$pcontact', '$companyName', '$CompEmailid', '$Explain', '$websiteType', '$usersOutsideIndia', '$packageType', '$facility', '$peraddress', '$city', '$country_state', '$pincode', '$country','$color_pref','$package_type','$feedback','$convi_time')";
+    $sql = "INSERT INTO userdetails (fname, lname, pemailid, pcontact, companyName, CompEmailid, Explain, websiteType, usersOutsideIndia, package_type,color_pref, facility, peraddress,city,country_state, pincode, country,feedback,convi_time,web_mode) VALUES ('$fname', '$lname', '$pemailid', '$pcontact', '$companyName', '$CompEmailid', '$Explain', '$websiteType', '$usersOutsideIndia', '$packageType', '$facility', '$peraddress', '$city', '$country_state', '$pincode', '$country','$color_pref','$package_type','$feedback','$convi_time','$web_mode')";
     if(!mysqli_query($conn, $sql)){
         die("Error in inserting records");
     }
