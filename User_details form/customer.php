@@ -160,35 +160,35 @@
         </legend>
         <label class="form__choice-wrapper"style="text-align:left">
           <input type="checkbox" name="product-website" value="A">
-          <span>WEB DEVELOPMENT</span>
+          <span>WEB DEVELOPMENT  ₹5000</span>
         </label>
         <label class="form__choice-wrapper">
           <input type="checkbox" name="product-app" value="B">
-          <span>APP DEVELOPMENT</span>
+          <span>APP DEVELOPMENT    ₹3500</span>
         </label>
         <label class="form__choice-wrapper">
           <input type="checkbox" name="product-digital" value="C">
-          <span>DIGITAL MARKETING</span>
+          <span>DIGITAL MARKETING     ₹2000</span>
         </label>
         <label class="form__choice-wrapper">
           <input type="checkbox" name="product-branding" value="B">
-          <span>BRANDING</span>
+          <span>BRANDING    ₹2000</span>
         </label>
         <label class="form__choice-wrapper">
           <input type="checkbox" name="product-design" value="B">
-          <span>DESIGN</span>
+          <span>DESIGN     ₹2000</span>
         </label>
         <label class="form__choice-wrapper">
           <input type="checkbox" name="product-seo" value="B">
-          <span>SEARCH ENGINE OPTIMIZATION</span>
+          <span>SEARCH ENGINE OPTIMIZATION      ₹3000</span>
         </label>
         <label class="form__choice-wrapper">
           <input type="checkbox" name="product-photo" value="B">
-          <span>PHOTOGRAPHY</span>
+          <span>PHOTOGRAPHY     ₹2800</span>
         </label>
         <label class="form__choice-wrapper">
           <input type="checkbox" name="product-smgmt" value="B">
-          <span>SOCIAL MEDIA MANAGEMENT</span>
+          <span>SOCIAL MEDIA MANAGEMENT     ₹4000</span>
         </label>
         <label class="form__choice-wrapper">
           <input type="checkbox" name="product-purchase" value="B">
