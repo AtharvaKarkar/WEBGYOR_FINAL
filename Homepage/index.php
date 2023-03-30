@@ -43,7 +43,7 @@ session_start();
         <a data-aos="zoom-in-left" data-aos-delay="450" href="#About">About</a>
         <a data-aos="zoom-in-left" data-aos-delay="600" href="#Template">Our Work</a>
         <a data-aos="zoom-in-left" data-aos-delay="750" href="../services/Services.php">Services</a>
-        <a data-aos-delay="900" data-aos-delay="950" href="../User_details form/customer.php">Interested?</a>
+        <a data-aos-delay="900" data-aos-delay="950" href="../User_details form/customer (2).php">Interested?</a>
         <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150">Contact-Us</a>
     </nav>
    <!-- <a href="../Authentication/index.php" data-aos="zoom-in-left" data-aos-delay="1300" href="#Sign-In" class="btn">Sign-In</a> -->
