@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration Form</title>
+    <title>User Details Form</title>
     <link rel="stylesheet" type="text/css" href="user.css">
 </head>
 <body>
 
+
+
 <section class="p-10">
 <div style="text-align:center">
-    <h3 class="">Form</h3>
+    <h3 class="">User Details Form</h3>
     </div>
     <br><br>
    
-    <div class="container">
+    <!--div class="container">
     <ul id="progressbar">
         <li class="active">Personal Details</li>
         <li>Company Details</li>
         <li>Facilities</li>
         <li>Address Details</li>
         <li>Submit</li>     
-    </ul>
+    </ul-->
     <form action="" method="POST" enctype="multipart/form-data" id="msform">
     
     <div class="box">
@@ -66,17 +68,205 @@
 
                     <label for="Emailid">Company Email id</label>
                     <input type="text" id="Emailid" placeholder="Enter your Company Email id" name="Emailid" required>
+                    
+                    <label for="Emailid">Type of your website and explain about is</label>
+                    <input type="text" id="Type" placeholder="Enter your business type" name="Type" required>
                 </div>
-                <label for="websiteType">Type of website: </label>
-                <option value="ev">Event-Management</option>
-                <option value="ecom">E-commerce</option>
+               <br></br>
+                <div class="mt-3 sm:mt-0 form__field" style="text-align:left">
+            <label for="address-state">
+              Type of your website
+              <span data-required="true" aria-hidden="true"></span>
+            </label>
+            <select id="type" name="type" autocomplete="shipping address-level1"  style="text-align:center"required>
+              <option value="" disabled selected>Please select</option>
+              <option value="E">E-commerce</option>
+              <option value="B">Business</option>
+              <option value="Ed">Education</option>
+              <option value="Tr">Travel</option>
+              <option value="We">Wedding & Event Management</option>
+              <option value="Ar">Agriculture</option>
+              <option value="Ot">Other</option>
+            </select>
+          </div>
+         <br></br>
+          <div class="mt-3 form__field"style="text-align:left">
+            <label for="phone-number">
+              Specify (optional)
+            </label>
+            <input id="specify" type="spe" name="spe" autocomplete="spe" inputmode="spe">
+          </div>
 
-            </div>        
-            
-            
-            
-             
+          <div class="mt-3 form__field"style="text-align:left">
+          <label for="phone-number">
+            Phone number (optional)
+          </label>
+          <input id="phone-number" type="tel" name="phone-number" autocomplete="tel" inputmode="tel">
         </div>
+
+        <div class="mt-3 form__field"style="text-align:left">
+        <label for="address">
+          Explain about your business...
+          <span data-required="true" aria-hidden="true"></span>
+        </label>
+        <input id="about" type="text" name="explain-business" autocomplete="" required>
+      </div>
+      <br></br>
+      <div class="mt-3 sm:mt-0 form__field"style="text-align:left">
+          <label for="users">
+            Do you have users out of India?
+            <span data-required="true" aria-hidden="true"></span>
+          </label>
+          <select id="users" name="users" autocomplete="users" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="AL">Yes</option>
+            <option value="AK">No</option>
+          
+          </select>
+        </div>
+        
+        <br></br>
+        <div class="mt-3 sm:mt-0 form__field"style="text-align:left">
+          <label for="type">
+            Type of your website?
+            <span data-required="true" aria-hidden="true"></span>
+          </label>
+          <select id="type" name="website-type" autocomplete="type" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="AL">Dynamic</option>
+            <option value="AK">Static</option>
+          
+          </select>
+        </div>
+        <br></br>
+        <div class="mt-3 sm:mt-0 form__field" style="text-align:left">
+          <label for="package">
+            Package you are interested in..
+            <span data-required="true" aria-hidden="true"></span>
+          </label>
+          <select id="package" name="package" autocomplete="package" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="AL">₹2999</option>
+            <option value="AK">₹6999</option>
+            <option value="AZ">₹8999</option>
+            <option value="AK">₹14999</option> 
+          </select>
+        </div>
+        <br></br>
+
+        <fieldset id="facilities" class="mt-3 form__field"style="text-align:left" required>
+        <legend>
+          Facilities you are interested in...
+        </legend>
+        <label class="form__choice-wrapper"style="text-align:left">
+          <input type="checkbox" name="product-website" value="A">
+          <span>WEB DEVELOPMENT</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-app" value="B">
+          <span>APP DEVELOPMENT</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-digital" value="C">
+          <span>DIGITAL MARKETING</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-branding" value="B">
+          <span>BRANDING</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-design" value="B">
+          <span>DESIGN</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-seo" value="B">
+          <span>SEARCH ENGINE OPTIMIZATION</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-photo" value="B">
+          <span>PHOTOGRAPHY</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-smgmt" value="B">
+          <span>SOCIAL MEDIA MANAGEMENT</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="product-purchase" value="B">
+          <span>NONE</span>
+        </label>
+        </fieldset>
+        <br></br>
+
+        <div class="mt-3 form__field" style="text-align:left" required>
+        <label for="product-recommendation">
+          How likely are you to recommend our products to friends or family?
+          <span data-required="true" aria-hidden="true"></span>
+        </label>
+        <select id="recommendation" name="recommendation" required>
+          <option value="" disabled selected>Please select</option>
+          <option value="Highly likely">Highly likely</option>
+          <option value="Very likely">Very likely</option>
+          <option value="Likely">Satisfied</option>
+          <option value="Very unlikely">Very unlikely</option>
+          <option value="Highly unlikely">Highly unlikely</option>
+        </select>
+      </div>
+      <br></br>
+
+      <fieldset id="color" class="mt-3 form__field" style="text-align:left" required>
+        <legend>
+          Color scheme you prefer?
+        </legend>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="dark-pop" value="A">
+          <span>DARK AND POP</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="bright-colorful" value="B">
+          <span>BRIGHT AND COLORFUL</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="subtle-simple" value="C">
+          <span>SUBTLE AND SIMPLE</span>
+        </label>
+        <label class="form__choice-wrapper">
+          <input type="checkbox" name="other" value="C">
+          <span>OTHER</span>
+        </label>
+      </fieldset>
+       
+      <br></br>
+      <div class="mt-3 sm:mt-0 form__field" style="text-align:left">
+          <label for="time">
+            Convinient time to contact you..
+            <span data-required="true" aria-hidden="true"></span>
+          </label>
+          <select id="time" name="time" autocomplete="time" required>
+            <option value="" disabled selected>Please select</option>
+            <option value="AL">9am-12pm</option>
+            <option value="AK">2pm-4pm</option>
+            <option value="AZ">6pm-9pm</option>
+            
+          </select>
+        </div>
+        <br></br>
+        
+
+      <div class="mt-3 form__field" style="text-align:left">
+        <label for="feedback">
+          Do you have any additional feedback or comments about our products?
+        </label>
+        <textarea id="product-feedback" name="product-feedback" rows="5"></textarea>
+      </div>
+
+        
+       
+
+
+                
+
+        </div>        
+    </div>
 
         <div class="">
             <button class="submit-button" id="submit" name="submit">Submit</button>
