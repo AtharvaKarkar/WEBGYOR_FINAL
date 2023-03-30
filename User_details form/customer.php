@@ -92,17 +92,10 @@
          <br></br>
           <div class="mt-3 form__field"style="text-align:left">
             <label for="phone-number">
-              Specify (optional)
+              Specify about the type of your website.. (optional)
             </label>
             <input id="specify" type="spe" name="spe" autocomplete="spe" inputmode="spe">
           </div>
-
-          <div class="mt-3 form__field"style="text-align:left">
-          <label for="phone-number">
-            Phone number (optional)
-          </label>
-          <input id="phone-number" type="tel" name="phone-number" autocomplete="tel" inputmode="tel">
-        </div>
 
         <div class="mt-3 form__field"style="text-align:left">
         <label for="address">
@@ -112,6 +105,7 @@
         <input id="about" type="text" name="explain-business" autocomplete="" required>
       </div>
       <br></br>
+      
       <div class="mt-3 sm:mt-0 form__field"style="text-align:left">
           <label for="users">
             Do you have users out of India?
@@ -139,63 +133,44 @@
           </select>
         </div>
         <br></br>
-        <div class="mt-3 sm:mt-0 form__field" style="text-align:left">
-          <label for="package">
-            Package you are interested in..
+        <div class="mt-3 sm:mt-0 form__field"style="text-align:left">
+          <label for="type">
+            Package you are interested in...
             <span data-required="true" aria-hidden="true"></span>
           </label>
           <select id="package" name="package" autocomplete="package" required>
             <option value="" disabled selected>Please select</option>
-            <option value="AL">₹2999</option>
-            <option value="AK">₹6999</option>
-            <option value="AZ">₹8999</option>
-            <option value="AK">₹14999</option> 
+            <option value="AL">₹3999-₹5999</option>
+            <option value="AK">₹5499-₹7999</option>
+            <option value="AT">₹9999-₹12999</option>
+            <option value="AP">₹13999-₹16999</option>
+          
           </select>
         </div>
         <br></br>
-
-        <fieldset id="facilities" class="mt-3 form__field"style="text-align:left" required>
-        <legend>
+        
+        <div class="mt-3 form__field" style="text-align:left" required>
+        <label for="facilities">
           Facilities you are interested in...
-        </legend>
-        <label class="form__choice-wrapper"style="text-align:left">
-          <input type="checkbox" name="product-website" value="A">
-          <span>WEB DEVELOPMENT  ₹5000</span>
+          <span data-required="true" aria-hidden="true"></span>
         </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-app" value="B">
-          <span>APP DEVELOPMENT    ₹3500</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-digital" value="C">
-          <span>DIGITAL MARKETING     ₹2000</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-branding" value="B">
-          <span>BRANDING    ₹2000</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-design" value="B">
-          <span>DESIGN     ₹2000</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-seo" value="B">
-          <span>SEARCH ENGINE OPTIMIZATION      ₹3000</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-photo" value="B">
-          <span>PHOTOGRAPHY     ₹2800</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-smgmt" value="B">
-          <span>SOCIAL MEDIA MANAGEMENT     ₹4000</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="product-purchase" value="B">
-          <span>NONE</span>
-        </label>
-        </fieldset>
-        <br></br>
+        <select id="facilities" name="facilities" required>
+          <option value="" disabled selected>Please select</option>
+          <option value="Web">Web development </option>
+          <option value="App">App development</option>
+          <option value="Seo">Search Engine Optimization</option>
+          <option value="Des">Design</option>
+          <option value="Bran">Branding</option>
+          <option value="Photo">Photography</option>
+          <option value="Smm">Social media management</option>
+          <option value="Digi">Digital Marketing</option>
+          <option value="None">None</option>
+
+        </select>
+      </div>
+      <br></br>
+
+        
 
         <div class="mt-3 form__field" style="text-align:left" required>
         <label for="product-recommendation">
@@ -212,28 +187,6 @@
         </select>
       </div>
       <br></br>
-
-      <fieldset id="color" class="mt-3 form__field" style="text-align:left" required>
-        <legend>
-          Color scheme you prefer?
-        </legend>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="dark-pop" value="A">
-          <span>DARK AND POP</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="bright-colorful" value="B">
-          <span>BRIGHT AND COLORFUL</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="subtle-simple" value="C">
-          <span>SUBTLE AND SIMPLE</span>
-        </label>
-        <label class="form__choice-wrapper">
-          <input type="checkbox" name="other" value="C">
-          <span>OTHER</span>
-        </label>
-      </fieldset>
        
       <br></br>
       <div class="mt-3 sm:mt-0 form__field" style="text-align:left">
@@ -258,14 +211,14 @@
         </label>
         <textarea id="product-feedback" name="product-feedback" rows="5"></textarea>
       </div>
-
+      
+      <div class="mt-3 form__field" style="text-align:left">
+        <label for="note">
+          All the finalization of the package and facilities needed , can be negotiated and discussed. Our team will contact you in your convinient time to discuss more about the website working. THANK YOU!
+        </label>
         
-       
-
-
-                
-
-        </div>        
+      </div>
+      </div>        
     </div>
 
         <div class="">

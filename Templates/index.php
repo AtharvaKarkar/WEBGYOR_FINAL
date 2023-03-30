@@ -34,7 +34,7 @@ if(empty($_SESSION))
       <a  href="../Homepage/index.php" data-aos="zoom-in-left" data-aos-delay="450" >About</a>
       <a href="../Templates/index.php" data-aos="zoom-in-left" data-aos-delay="600" >Our Work</a>
       <a href="../services/Services.php" data-aos="zoom-in-left" data-aos-delay="750" >Services</a>
-      <a href="../User_details form/user_details.php" data-aos="zoom-in-left" data-aos-delay="900">Interested?</a>
+      <a href="../User_details form/customer.php" data-aos="zoom-in-left" data-aos-delay="900">Interested?</a>
       <a href="../ContactUs/index.php" data-aos="zoom-in-left" data-aos-delay="1150" >Contact-Us</a>
   </nav>
 
