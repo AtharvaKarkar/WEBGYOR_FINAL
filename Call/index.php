@@ -6,7 +6,7 @@ session_start();
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Call Us</title>
+    <title>Join Us</title>
     <link rel="stylesheet" href="../Call/style.css" />
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
@@ -86,7 +86,7 @@ session_start();
           <span class="circle two"></span>
 
           <form method="post" action="callusback.php" autocomplete="off">
-            <h3 class="title">Call Us</h3>
+            <h3 class="title">Join Us</h3>
             <div class="input-container">
                 <input type="text" name="name" class="input" id="name" required />
                 <label for="name">Name</label>

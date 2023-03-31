@@ -226,7 +226,7 @@ session_start();
             <div class="card-body d-flex flex-column justify-content-between p-4" style="background: #130113;">
               <div>
                 <h6 class="fw-bold text-muted">Standard &nbsp;</h6>
-                <h4 class="display-5 fw-bold mb-4">₹999&nbsp;</h4>
+                <h4 class="display-5 fw-bold mb-4">₹2999-₹4999&nbsp;</h4>
                 <ul class="list-unstyled">
                   <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon me-2"><svg
                         xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2"
@@ -250,16 +250,17 @@ session_start();
                         <path d="M5 12l5 5l10 -10"></path>
                       </svg></span><span>Custom Emails.</span></li>
                 </ul>
-              </div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a>
+              <!--/div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a-->
             </div>
           </div>
         </div>
+      </div>
         <div class="col">
           <div class="card border-0 h-100">
             <div class="card-body d-flex flex-column justify-content-between p-4" style="background: #130113;">
               <div>
                 <h6 class="fw-bold text-muted">Moderate</h6>
-                <h4 class="display-5 fw-bold mb-4">₹4999</h4>
+                <h4 class="display-5 fw-bold mb-4">₹6999-₹8499</h4>
                 <ul class="list-unstyled">
                   <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon me-2"><svg
                         xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2"
@@ -283,10 +284,11 @@ session_start();
                         <path d="M5 12l5 5l10 -10"></path>
                       </svg></span><span>Custom Emails.</span></li>
                 </ul>
-              </div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a>
+              <!--/div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a-->
             </div>
           </div>
         </div>
+       </div>
         <div class="col">
           <div class="card border-warning border-2 h-100">
             <div class="card-body d-flex flex-column justify-content-between p-4" style="background:#130113;"><span
@@ -294,7 +296,7 @@ session_start();
                 Popular</span>
               <div>
                 <h6 class="fw-bold text-muted">Pro&nbsp;</h6>
-                <h4 class="display-5 fw-bold mb-4">₹6999</h4>
+                <h4 class="display-5 fw-bold mb-4">₹8999-₹12999</h4>
                 <ul class="list-unstyled">
                   <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon me-2"><svg
                         xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2"
@@ -332,17 +334,18 @@ session_start();
                         <path d="M5 12l5 5l10 -10"></path>
                       </svg></span><span>SEO</span></li>
                 </ul>
-              </div><a class="btn btn-warning" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a>
+              <!--/div><a class="btn btn-warning" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a-->
             </div>
           </div>
         </div>
+       </div>
         <div class="col">
           <div class="card border-0 h-100">
             <div class="card-body d-flex flex-column justify-content-between p-4" style="background: #130113;">
               <div class="pb-4">
                 <h6 class="fw-bold text-muted" style="color: rgb(99,142,221);">Premium&nbsp; &nbsp; &nbsp;
                 </h6>
-                <h4 class="display-5 fw-bold mb-4">₹8999</h4>
+                <h4 class="display-5 fw-bold mb-4">₹14999-₹19999</h4>
                 <ul class="list-unstyled">
                   <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon me-2"><svg
                         xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2"
@@ -394,7 +397,7 @@ session_start();
                         <path d="M5 12l5 5l10 -10"></path>
                       </svg></span><span>2x Business Consultation ( till subscription ends)&nbsp;</span></li>
                 </ul>
-              </div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a>
+              <!--/div><a class="btn btn-primary" role="button" href="../User_details form/user_details.php" style="background: rgb(134,72,156);">Add</a-->
             </div>
           </div>
         </div>

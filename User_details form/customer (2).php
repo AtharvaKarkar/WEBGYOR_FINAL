@@ -114,10 +114,10 @@
                         <td>
                             <select style="font-size: 15px;" name="package_type" id="package_type">
                                 <option value="">Choose</option>    
-                                <option>₹2999</option>
-                                <option>₹6999</option>
-                                <option>₹8999</option>
-                                <option>₹14999</option>
+                                <option>₹2999-₹4999</option>
+                                <option>₹6999-₹8499</option>
+                                <option>₹8999-₹12999</option>
+                                <option>₹14999-₹19999</option>
                             </select>                                                   
                         </td>
                     </tr>                   
