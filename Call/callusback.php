@@ -7,8 +7,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $time = $_POST['time'];
   $discussion_topic = $_POST['discussion_topic'];
 
-// Insert data into database table
-  $sql = "INSERT INTO 'join_us'('name', 'phone', 'time', 'discussion_topic') VALUES ('$name', '$phone', '$time', '$discussion_topic')";
+  // Insert data into database table
+  $sql = "INSERT INTO join_us (name, phone, time, discussion_topic) VALUES ('$name', '$phone', '$time', '$discussion_topic')";
   $result = mysqli_query($conn, $sql);
 
   if ($result) {
@@ -21,4 +21,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 mysqli_close($conn);
 ?>
-

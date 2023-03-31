@@ -15,7 +15,7 @@ $result = mysqli_query($con, $sql);
 
   <?php while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) { ?>
     <tr>
-      <td><?php echo $row["id"]; ?></td>
+      
       <td><?php echo $row["name"]; ?></td>
       <td><?php echo $row["phone"]; ?></td>
       <td><?php echo $row["time"]; ?></td>
