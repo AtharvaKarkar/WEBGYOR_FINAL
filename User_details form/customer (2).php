@@ -14,14 +14,14 @@
     </div>
     <br><br>
    
-    <div class="container">
+    <!--div class="container">
     <ul id="progressbar">
         <li class="active">Personal Details</li>
         <li>Company Details</li>
         <li>Facilities</li>
         <li>Address Details</li>
         <li>Submit</li>     
-    </ul>
+    </ul-->
     <form action="" method="POST" enctype="multipart/form-data" id="msform">
     
     <div class="box">
@@ -178,7 +178,12 @@
                     <h5 align="left" >Do you have any more feedback,If yes please share</h5>
                     <input type="text" name="feedback" placeholder="feedback"/> 
             </div>
-
+            <div class="mt-3 form__field" style="text-align:left">
+        <label for="note">
+          All the finalization of the package and facilities needed , can be negotiated and discussed. Our team will contact you in your convinient time to discuss more about the website working. THANK YOU!
+        </label>
+        
+      </div>
         </div>
 
         <div class="">
