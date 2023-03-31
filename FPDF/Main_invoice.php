@@ -49,7 +49,7 @@ $pdf->Cell(40, 10, '999', 1);
 $pdf->Cell(40, 10, '999', 1);
 $pdf->Ln(10);
 $pdf->Cell(130, 10, 'Total', 1, 0, 'R');
-$pdf->Cell(40, 10, '$50.00', 1);
+$pdf->Cell(40, 10, '7,998', 1);
 $pdf->Ln(20);
 
 // output the PDF
